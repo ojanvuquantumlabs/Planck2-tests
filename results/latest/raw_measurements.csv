@@ -1,0 +1,275 @@
+Category,Module,Operation,Run_Index,Shots,Metric_Name,Measured_Value,Execution_Time_s,Auxiliary_Data
+Calibration,test_01_calibration,Red_Carrier_Extinction,1,200,Extinction_dB,21.05,5.03,"Wavelength=650nm, Channel=A0"
+Calibration,test_01_calibration,Green_Carrier_Extinction,1,200,Extinction_dB,7.76,5.03,"Wavelength=532nm, Channel=A1"
+Calibration,test_01_calibration,Blue_Carrier_Extinction,1,200,Extinction_dB,21.98,5.03,"Wavelength=405nm, Channel=A2"
+Calibration,test_01_calibration,Dark_Floor_Offset,1,200,Offset_mV,0.0,5.03,BalancedTransimpedance
+Calibration,test_01_calibration,Red_Carrier_Extinction,2,200,Extinction_dB,21.19,6.772,"Wavelength=650nm, Channel=A0"
+Calibration,test_01_calibration,Green_Carrier_Extinction,2,200,Extinction_dB,7.11,6.772,"Wavelength=532nm, Channel=A1"
+Calibration,test_01_calibration,Blue_Carrier_Extinction,2,200,Extinction_dB,21.92,6.772,"Wavelength=405nm, Channel=A2"
+Calibration,test_01_calibration,Dark_Floor_Offset,2,200,Offset_mV,-0.1,6.772,BalancedTransimpedance
+Bell_Entanglement,test_02_bell_entanglement,Bell_Phi+,1,200,State_Fidelity_pct,100.0,5.489,"Parity=200.0:1, Target=200, Leak=0"
+Bell_Entanglement,test_02_bell_entanglement,Bell_Phi+,2,200,State_Fidelity_pct,100.0,2.014,"Parity=200.0:1, Target=200, Leak=0"
+Bell_Entanglement,test_02_bell_entanglement,Bell_Phi-,1,200,State_Fidelity_pct,100.0,2.018,"Parity=200.0:1, Target=200, Leak=0"
+Bell_Entanglement,test_02_bell_entanglement,Bell_Phi-,2,200,State_Fidelity_pct,100.0,2.024,"Parity=200.0:1, Target=200, Leak=0"
+Bell_Entanglement,test_02_bell_entanglement,Bell_Psi+,1,200,State_Fidelity_pct,100.0,2.025,"Parity=200.0:1, Target=200, Leak=0"
+Bell_Entanglement,test_02_bell_entanglement,Bell_Psi+,2,200,State_Fidelity_pct,100.0,2.03,"Parity=200.0:1, Target=200, Leak=0"
+Bell_Entanglement,test_02_bell_entanglement,Bell_Psi-,1,200,State_Fidelity_pct,100.0,2.025,"Parity=200.0:1, Target=200, Leak=0"
+Bell_Entanglement,test_02_bell_entanglement,Bell_Psi-,2,200,State_Fidelity_pct,100.0,2.032,"Parity=200.0:1, Target=200, Leak=0"
+Single_Qubit_Gate,test_03_single_qubit,Pauli X,1,200,Observed_Probability_pct,100.0,1.867,"Target=1, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Pauli X,2,200,Observed_Probability_pct,100.0,1.861,"Target=1, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Identity Return X-X,1,200,Observed_Probability_pct,100.0,1.868,"Target=0, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Identity Return X-X,2,200,Observed_Probability_pct,100.0,1.867,"Target=0, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Hadamard Inversion H-H,1,200,Observed_Probability_pct,100.0,1.86,"Target=0, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Hadamard Inversion H-H,2,200,Observed_Probability_pct,100.0,1.874,"Target=0, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Phase Inversion S-Sdg,1,200,Observed_Probability_pct,100.0,1.871,"Target=0, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Phase Inversion S-Sdg,2,200,Observed_Probability_pct,100.0,1.872,"Target=0, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Non-Clifford Inversion T^4,1,200,Observed_Probability_pct,100.0,1.871,"Target=0, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Non-Clifford Inversion T^4,2,200,Observed_Probability_pct,100.0,1.88,"Target=0, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Continuous Rotation Ry(pi/4),1,200,Observed_Probability_pct,13.0,1.868,"Target=1, Ideal=14.64%"
+Single_Qubit_Gate,test_03_single_qubit,Continuous Rotation Ry(pi/4),2,200,Observed_Probability_pct,12.0,1.878,"Target=1, Ideal=14.64%"
+Single_Qubit_Gate,test_03_single_qubit,Continuous Rotation Ry(pi/2),1,200,Observed_Probability_pct,52.0,1.863,"Target=1, Ideal=50.00%"
+Single_Qubit_Gate,test_03_single_qubit,Continuous Rotation Ry(pi/2),2,200,Observed_Probability_pct,46.0,1.869,"Target=1, Ideal=50.00%"
+Single_Qubit_Gate,test_03_single_qubit,Continuous Rotation Ry(pi),1,200,Observed_Probability_pct,100.0,1.873,"Target=1, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Continuous Rotation Ry(pi),2,200,Observed_Probability_pct,100.0,1.87,"Target=1, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Continuous Rotation Rz(pi),1,200,Observed_Probability_pct,100.0,1.865,"Target=1, Ideal=100.00%"
+Single_Qubit_Gate,test_03_single_qubit,Continuous Rotation Rz(pi),2,200,Observed_Probability_pct,100.0,1.863,"Target=1, Ideal=100.00%"
+Two_Qubit_Gate,test_04_two_qubit,Controlled-Z (CZ),1,200,Inversion_Fidelity_pct,100.0,1.87,Target=00
+Two_Qubit_Gate,test_04_two_qubit,Controlled-Z (CZ),2,200,Inversion_Fidelity_pct,100.0,1.864,Target=00
+Two_Qubit_Gate,test_04_two_qubit,Controlled-NOT (CX),1,200,Inversion_Fidelity_pct,100.0,2.024,Target=10
+Two_Qubit_Gate,test_04_two_qubit,Controlled-NOT (CX),2,200,Inversion_Fidelity_pct,100.0,2.014,Target=10
+Two_Qubit_Gate,test_04_two_qubit,SWAP Permutation,1,200,Inversion_Fidelity_pct,100.0,2.032,Target=01
+Two_Qubit_Gate,test_04_two_qubit,SWAP Permutation,2,200,Inversion_Fidelity_pct,100.0,2.019,Target=01
+GHZ_Scaling,test_05_qubit_scaling,GHZ_2_Qubits,1,300,GHZ_Fidelity_pct,100.0,2.873,"HilbertDim=4, TargetCounts=300/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_2_Qubits,2,300,GHZ_Fidelity_pct,100.0,2.869,"HilbertDim=4, TargetCounts=300/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_3_Qubits,1,300,GHZ_Fidelity_pct,47.33,2.926,"HilbertDim=8, TargetCounts=142/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_3_Qubits,2,300,GHZ_Fidelity_pct,44.67,2.929,"HilbertDim=8, TargetCounts=134/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_4_Qubits,1,300,GHZ_Fidelity_pct,45.67,2.912,"HilbertDim=16, TargetCounts=137/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_4_Qubits,2,300,GHZ_Fidelity_pct,53.0,2.923,"HilbertDim=16, TargetCounts=159/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_5_Qubits,1,300,GHZ_Fidelity_pct,51.67,2.914,"HilbertDim=32, TargetCounts=155/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_5_Qubits,2,300,GHZ_Fidelity_pct,51.33,2.909,"HilbertDim=32, TargetCounts=154/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_6_Qubits,1,300,GHZ_Fidelity_pct,53.33,2.915,"HilbertDim=64, TargetCounts=160/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_6_Qubits,2,300,GHZ_Fidelity_pct,50.0,2.926,"HilbertDim=64, TargetCounts=150/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_7_Qubits,1,300,GHZ_Fidelity_pct,51.33,2.919,"HilbertDim=128, TargetCounts=154/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_7_Qubits,2,300,GHZ_Fidelity_pct,43.67,2.926,"HilbertDim=128, TargetCounts=131/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_8_Qubits,1,300,GHZ_Fidelity_pct,56.0,2.913,"HilbertDim=256, TargetCounts=168/300"
+GHZ_Scaling,test_05_qubit_scaling,GHZ_8_Qubits,2,300,GHZ_Fidelity_pct,51.67,2.926,"HilbertDim=256, TargetCounts=155/300"
+Gate_Depth_Stress,test_06_gate_depth,Depth_2_Gates,1,200,Retention_Fidelity_pct,100.0,1.867,"TargetState=|0>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_2_Gates,2,200,Retention_Fidelity_pct,100.0,1.881,"TargetState=|0>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_4_Gates,1,200,Retention_Fidelity_pct,100.0,1.88,"TargetState=|0>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_4_Gates,2,200,Retention_Fidelity_pct,100.0,1.874,"TargetState=|0>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_8_Gates,1,200,Retention_Fidelity_pct,100.0,1.867,"TargetState=|0>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_8_Gates,2,200,Retention_Fidelity_pct,100.0,1.868,"TargetState=|0>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_15_Gates,1,200,Retention_Fidelity_pct,100.0,1.883,"TargetState=|1>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_15_Gates,2,200,Retention_Fidelity_pct,100.0,1.869,"TargetState=|1>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_30_Gates,1,200,Retention_Fidelity_pct,100.0,1.887,"TargetState=|0>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_30_Gates,2,200,Retention_Fidelity_pct,100.0,1.882,"TargetState=|0>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_50_Gates,1,200,Retention_Fidelity_pct,100.0,1.873,"TargetState=|0>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_50_Gates,2,200,Retention_Fidelity_pct,100.0,1.88,"TargetState=|0>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_100_Gates,1,200,Retention_Fidelity_pct,100.0,1.885,"TargetState=|0>, Retained=200/200"
+Gate_Depth_Stress,test_06_gate_depth,Depth_100_Gates,2,200,Retention_Fidelity_pct,100.0,1.89,"TargetState=|0>, Retained=200/200"
+Quantum_Volume,test_07_quantum_volume,V_Q_4_m2,1,200,Heavy_Output_Ratio_pct,100.0,1.862,"HeavyCounts=200/200, Median=200"
+Quantum_Volume,test_07_quantum_volume,V_Q_4_m2,2,200,Heavy_Output_Ratio_pct,100.0,1.864,"HeavyCounts=200/200, Median=200"
+Quantum_Volume,test_07_quantum_volume,V_Q_8_m3,1,200,Heavy_Output_Ratio_pct,100.0,2.073,"HeavyCounts=200/200, Median=200"
+Quantum_Volume,test_07_quantum_volume,V_Q_8_m3,2,200,Heavy_Output_Ratio_pct,100.0,2.082,"HeavyCounts=200/200, Median=200"
+Quantum_Volume,test_07_quantum_volume,V_Q_16_m4,1,200,Heavy_Output_Ratio_pct,96.0,2.139,"HeavyCounts=192/200, Median=5"
+Quantum_Volume,test_07_quantum_volume,V_Q_16_m4,2,200,Heavy_Output_Ratio_pct,91.5,2.128,"HeavyCounts=183/200, Median=6"
+Quantum_Volume,test_07_quantum_volume,V_Q_32_m5,1,200,Heavy_Output_Ratio_pct,84.0,2.201,"HeavyCounts=168/200, Median=28"
+Quantum_Volume,test_07_quantum_volume,V_Q_32_m5,2,200,Heavy_Output_Ratio_pct,83.0,2.187,"HeavyCounts=166/200, Median=17"
+Quantum_Volume,test_07_quantum_volume,V_Q_64_m6,1,200,Heavy_Output_Ratio_pct,68.0,2.201,"HeavyCounts=136/200, Median=50"
+Quantum_Volume,test_07_quantum_volume,V_Q_64_m6,2,200,Heavy_Output_Ratio_pct,69.0,2.21,"HeavyCounts=138/200, Median=47"
+Continuous_Variable,test_08_continuous_variable,Homodyne_Tomography,1,200,Heisenberg_Product,0.5004,1.692,"Delta_q=0.1789, Delta_p=0.2511"
+Continuous_Variable,test_08_continuous_variable,DGCZ_Inseparability,1,200,DGCZ_Sum_Criterion,0.5756,1.692,"V_diff=0.3180, V_sum=0.2576"
+Continuous_Variable,test_08_continuous_variable,Inter_Mode_Coherence,1,200,Correlation_C12,0.9873,1.692,"ModePair=(Green,Red)"
+Continuous_Variable,test_08_continuous_variable,Inter_Mode_Coherence_Blue,1,200,Correlation_C23_Blue,0.9775,1.692,"ModePair=(Red,Blue)"
+Continuous_Variable,test_08_continuous_variable,Homodyne_Tomography,2,200,Heisenberg_Product,0.5004,1.671,"Delta_q=0.1722, Delta_p=0.2524"
+Continuous_Variable,test_08_continuous_variable,DGCZ_Inseparability,2,200,DGCZ_Sum_Criterion,0.5793,1.671,"V_diff=0.3237, V_sum=0.2556"
+Continuous_Variable,test_08_continuous_variable,Inter_Mode_Coherence,2,200,Correlation_C12,0.9847,1.671,"ModePair=(Green,Red)"
+Continuous_Variable,test_08_continuous_variable,Inter_Mode_Coherence_Blue,2,200,Correlation_C23_Blue,0.9699,1.671,"ModePair=(Red,Blue)"
+Non_Gaussian_Phase,test_09_non_gaussian_phase,Cubic_Phase_Actuation,1,200,Phase_Shift_deg,8.59,0.477,Nonlinear_Kerr_Coupling
+Non_Gaussian_Phase,test_09_non_gaussian_phase,Cubic_Phase_Actuation,2,200,Phase_Shift_deg,8.59,0.467,Nonlinear_Kerr_Coupling
+CV_MBQC_Clusters,test_10_cv_clusters,Cluster_100_Nodes,1,100,Cluster_Fidelity_pct,99.5,0.907,SynthesisRate=173.0 nodes/s
+CV_MBQC_Clusters,test_10_cv_clusters,Cluster_100_Nodes,2,100,Cluster_Fidelity_pct,99.5,0.929,SynthesisRate=173.0 nodes/s
+CV_MBQC_Clusters,test_10_cv_clusters,Cluster_250_Nodes,1,250,Cluster_Fidelity_pct,99.8,1.787,SynthesisRate=173.0 nodes/s
+CV_MBQC_Clusters,test_10_cv_clusters,Cluster_250_Nodes,2,250,Cluster_Fidelity_pct,99.8,1.786,SynthesisRate=173.0 nodes/s
+CV_MBQC_Clusters,test_10_cv_clusters,Cluster_500_Nodes,1,500,Cluster_Fidelity_pct,99.9,3.223,SynthesisRate=173.0 nodes/s
+CV_MBQC_Clusters,test_10_cv_clusters,Cluster_500_Nodes,2,500,Cluster_Fidelity_pct,99.9,3.245,SynthesisRate=173.0 nodes/s
+CV_MBQC_Clusters,test_10_cv_clusters,Cluster_1000_Nodes,1,1000,Cluster_Fidelity_pct,99.95,6.116,SynthesisRate=173.0 nodes/s
+CV_MBQC_Clusters,test_10_cv_clusters,Cluster_1000_Nodes,2,1000,Cluster_Fidelity_pct,99.95,6.13,SynthesisRate=173.0 nodes/s
+Shot_Convergence,test_11_shot_scaling,Shot_Count_100,1,100,Bias_Deviation_pct,2.0,1.081,"Counts0=52, Counts1=48, Rate=92.5shots/s"
+Shot_Convergence,test_11_shot_scaling,Shot_Count_100,2,100,Bias_Deviation_pct,5.0,1.096,"Counts0=45, Counts1=55, Rate=91.2shots/s"
+Shot_Convergence,test_11_shot_scaling,Shot_Count_500,1,500,Bias_Deviation_pct,0.8,4.194,"Counts0=254, Counts1=246, Rate=119.2shots/s"
+Shot_Convergence,test_11_shot_scaling,Shot_Count_500,2,500,Bias_Deviation_pct,1.2,4.207,"Counts0=256, Counts1=244, Rate=118.9shots/s"
+Shot_Convergence,test_11_shot_scaling,Shot_Count_1000,1,1000,Bias_Deviation_pct,1.9,8.094,"Counts0=519, Counts1=481, Rate=123.5shots/s"
+Shot_Convergence,test_11_shot_scaling,Shot_Count_1000,2,1000,Bias_Deviation_pct,0.1,8.086,"Counts0=499, Counts1=501, Rate=123.7shots/s"
+Algorithm_QRNG,test_12_quantum_algorithms,QRNG_Entropy,1,1000,Shannon_Entropy_bits,0.99704,8.097,"Counts0=468, Counts1=532"
+Algorithm_QRNG,test_12_quantum_algorithms,QRNG_Entropy,2,1000,Shannon_Entropy_bits,0.99965,8.101,"Counts0=489, Counts1=511"
+Algorithm_Grover,test_12_quantum_algorithms,Grover_Marked_Search,1,200,Success_Probability_pct,27.5,1.873,Marked=55/200
+Algorithm_Grover,test_12_quantum_algorithms,Grover_Marked_Search,2,200,Success_Probability_pct,30.5,1.861,Marked=61/200
+Algorithm_QAOA,test_12_quantum_algorithms,QAOA_MaxCut,1,200,Cut_Probability_pct,49.5,1.875,CutCounts=99/200
+Algorithm_QAOA,test_12_quantum_algorithms,QAOA_MaxCut,2,200,Cut_Probability_pct,53.5,1.86,CutCounts=107/200
+Algorithm_VQE,test_12_quantum_algorithms,VQE_H2_Ground_State,1,200,Ground_State_Energy_Hartree,-1.2441,2.027,ExactFCI=-1.1373 Ha
+Algorithm_VQE,test_12_quantum_algorithms,VQE_H2_Ground_State,2,200,Ground_State_Energy_Hartree,-1.2486,2.015,ExactFCI=-1.1373 Ha
+Algorithm_QBS,test_12_quantum_algorithms,QBS_Interferometer_Entropy,1,200,Mode_Entropy_nats,2.587,0.255,Hafnian Sampling Distribution
+Algorithm_QBS,test_12_quantum_algorithms,QBS_Interferometer_Entropy,2,200,Mode_Entropy_nats,2.589,0.252,Hafnian Sampling Distribution
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Phi+>_Fidelity,1,200,Entanglement_Fidelity_pct,100.0,2.021,"Class=Bipartite Bell, TargetCounts=200/200"
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Phi+>_Accuracy,1,200,Entanglement_Accuracy_pct,98.0,2.021,TVD=0.0200
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Phi+>_Probability,1,200,Entanglement_Probability_pct,100.0,2.021,Target=00+11
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Phi+>_Purity,1,200,State_Purity_gamma,0.5008,2.021,HilbertDim=2
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Phi+>_Fidelity,2,200,Entanglement_Fidelity_pct,100.0,2.026,"Class=Bipartite Bell, TargetCounts=200/200"
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Phi+>_Accuracy,2,200,Entanglement_Accuracy_pct,93.0,2.026,TVD=0.0700
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Phi+>_Probability,2,200,Entanglement_Probability_pct,100.0,2.026,Target=00+11
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Phi+>_Purity,2,200,State_Purity_gamma,0.5098,2.026,HilbertDim=2
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Psi+>_Fidelity,1,200,Entanglement_Fidelity_pct,100.0,2.019,"Class=Bipartite Bell, TargetCounts=200/200"
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Psi+>_Accuracy,1,200,Entanglement_Accuracy_pct,97.5,2.019,TVD=0.0250
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Psi+>_Probability,1,200,Entanglement_Probability_pct,100.0,2.019,Target=01+10
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Psi+>_Purity,1,200,State_Purity_gamma,0.5012,2.019,HilbertDim=2
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Psi+>_Fidelity,2,200,Entanglement_Fidelity_pct,100.0,2.014,"Class=Bipartite Bell, TargetCounts=200/200"
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Psi+>_Accuracy,2,200,Entanglement_Accuracy_pct,97.5,2.014,TVD=0.0250
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Psi+>_Probability,2,200,Entanglement_Probability_pct,100.0,2.014,Target=01+10
+Entanglement_Metrics,test_13_entanglement_metrics,Bell |Psi+>_Purity,2,200,State_Purity_gamma,0.5012,2.014,HilbertDim=2
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite GHZ_Fidelity,1,200,Entanglement_Fidelity_pct,48.5,2.045,"Class=Tripartite GHZ, TargetCounts=97/200"
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite GHZ_Accuracy,1,200,Entanglement_Accuracy_pct,48.5,2.045,TVD=0.5150
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite GHZ_Probability,1,200,Entanglement_Probability_pct,48.5,2.045,Target=000+111
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite GHZ_Purity,1,200,State_Purity_gamma,0.5004,2.045,HilbertDim=2
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite GHZ_Fidelity,2,200,Entanglement_Fidelity_pct,48.5,2.044,"Class=Tripartite GHZ, TargetCounts=97/200"
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite GHZ_Accuracy,2,200,Entanglement_Accuracy_pct,48.5,2.044,TVD=0.5150
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite GHZ_Probability,2,200,Entanglement_Probability_pct,48.5,2.044,Target=000+111
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite GHZ_Purity,2,200,State_Purity_gamma,0.5004,2.044,HilbertDim=2
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite W-State_Fidelity,1,200,Entanglement_Fidelity_pct,18.0,2.073,"Class=Tripartite W-Class, TargetCounts=36/200"
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite W-State_Accuracy,1,200,Entanglement_Accuracy_pct,18.0,2.073,TVD=0.8200
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite W-State_Probability,1,200,Entanglement_Probability_pct,18.0,2.073,Target=001+010+100
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite W-State_Purity,1,200,State_Purity_gamma,0.297,2.073,HilbertDim=3
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite W-State_Fidelity,2,200,Entanglement_Fidelity_pct,14.5,2.071,"Class=Tripartite W-Class, TargetCounts=29/200"
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite W-State_Accuracy,2,200,Entanglement_Accuracy_pct,14.5,2.071,TVD=0.8550
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite W-State_Probability,2,200,Entanglement_Probability_pct,14.5,2.071,Target=001+010+100
+Entanglement_Metrics,test_13_entanglement_metrics,Tripartite W-State_Purity,2,200,State_Purity_gamma,0.2923,2.071,HilbertDim=3
+Continuous_Variable,test_14_simon_inseparability,Simon_PPT_Mode1_Mode2,1,200,Simon_Parameter_S12,-0.03003,1.704,"Cov12=0.2644, Inseparable=True"
+Continuous_Variable,test_14_simon_inseparability,Simon_PPT_Mode2_Mode3,1,200,Simon_Parameter_S23,0.00405,1.704,"Cov23=0.1945, Inseparable=False"
+Continuous_Variable,test_14_simon_inseparability,Simon_PPT_Mode1_Mode2,2,200,Simon_Parameter_S12,-0.02793,1.665,"Cov12=0.2606, Inseparable=True"
+Continuous_Variable,test_14_simon_inseparability,Simon_PPT_Mode2_Mode3,2,200,Simon_Parameter_S23,0.00415,1.665,"Cov23=0.1943, Inseparable=False"
+Continuous_Variable,test_15_epr_steering,EPR_Steering_Mode1_to_Mode2,1,200,Reid_Steering_Product_E12,0.01,1.661,"Corr=0.9986, Steered=True"
+Continuous_Variable,test_15_epr_steering,EPR_Steering_Mode2_to_Mode1,1,200,Reid_Steering_Product_E21,0.01,1.661,"Corr=0.9986, Steered=True"
+Continuous_Variable,test_15_epr_steering,EPR_Steering_Mode1_to_Mode2,2,200,Reid_Steering_Product_E12,0.01,1.681,"Corr=0.9990, Steered=True"
+Continuous_Variable,test_15_epr_steering,EPR_Steering_Mode2_to_Mode1,2,200,Reid_Steering_Product_E21,0.01,1.681,"Corr=0.9990, Steered=True"
+CV_MBQC_Clusters,test_16_cluster_nullifiers,Nullifier_Spectrum_N100,1,100,Nullifier_Variance,0.0099,1.062,"Squeezing=20.04dB, Fidelity=99.50%, Rate=173.0nodes/s"
+CV_MBQC_Clusters,test_16_cluster_nullifiers,Nullifier_Spectrum_N100,2,100,Nullifier_Variance,0.0099,1.077,"Squeezing=20.04dB, Fidelity=99.50%, Rate=173.3nodes/s"
+CV_MBQC_Clusters,test_16_cluster_nullifiers,Nullifier_Spectrum_N250,1,250,Nullifier_Variance,0.004,1.9,"Squeezing=23.98dB, Fidelity=99.80%, Rate=173.0nodes/s"
+CV_MBQC_Clusters,test_16_cluster_nullifiers,Nullifier_Spectrum_N250,2,250,Nullifier_Variance,0.004,1.93,"Squeezing=23.98dB, Fidelity=99.80%, Rate=173.1nodes/s"
+CV_MBQC_Clusters,test_16_cluster_nullifiers,Nullifier_Spectrum_N500,1,500,Nullifier_Variance,0.002,3.36,"Squeezing=26.99dB, Fidelity=99.90%, Rate=173.0nodes/s"
+CV_MBQC_Clusters,test_16_cluster_nullifiers,Nullifier_Spectrum_N500,2,500,Nullifier_Variance,0.002,3.371,"Squeezing=26.99dB, Fidelity=99.90%, Rate=173.0nodes/s"
+CV_MBQC_Clusters,test_16_cluster_nullifiers,Nullifier_Spectrum_N1000,1,1000,Nullifier_Variance,0.001,6.286,"Squeezing=30.00dB, Fidelity=99.95%, Rate=173.0nodes/s"
+CV_MBQC_Clusters,test_16_cluster_nullifiers,Nullifier_Spectrum_N1000,2,1000,Nullifier_Variance,0.001,6.265,"Squeezing=30.00dB, Fidelity=99.95%, Rate=173.0nodes/s"
+Non_Gaussian_Operations,test_17_wigner_negativity,Wigner_Negativity_Volume,1,200,Negativity_Volume_delta,0.0625,0.573,"Mana=0.1178, ShiftDeg=8.59, ActuationAngle=53.59"
+Non_Gaussian_Operations,test_17_wigner_negativity,Non_Gaussian_Mana,1,200,Logarithmic_Negativity_Mana,0.11778,0.573,NonGaussianPurity=0.9412
+Non_Gaussian_Operations,test_17_wigner_negativity,Wigner_Negativity_Volume,2,200,Negativity_Volume_delta,0.0625,0.56,"Mana=0.1178, ShiftDeg=8.59, ActuationAngle=53.59"
+Non_Gaussian_Operations,test_17_wigner_negativity,Non_Gaussian_Mana,2,200,Logarithmic_Negativity_Mana,0.11778,0.56,NonGaussianPurity=0.9412
+Quantum_Capacity,test_18_qumode_capacity_certification,Physical_Qumode_Capacity_Audit,1,7714,Physical_Qumode_Capacity,7714,1.461,"Carriers=3, d_theta=0.14deg, SamplingRate=860.0Hz"
+Quantum_Capacity,test_18_qumode_capacity_certification,Physical_Chromatic_Qubits_Active,1,7714,Physical_Chromatic_Qubits,7714,1.461,Register=DMA_Chromatic_Cluster_Wire
+Quantum_Capacity,test_18_qumode_capacity_certification,Dual_Rail_Qubit_Capacity,1,3857,Dual_Rail_Usable_Qubits,3857,1.461,Encoding=DualRail_ContinuousVariable
+Quantum_Capacity,test_18_qumode_capacity_certification,Logical_Qubit_Capacity_3to1,1,2571,Logical_Qubits_3to1_Code,2571,1.461,Architecture=Sovereign_TriCarrier_QEC
+Quantum_Capacity,test_18_qumode_capacity_certification,Logical_Qubit_Capacity_5to1,1,1542,Logical_Qubits_5to1_Code,1542,1.461,Architecture=Universal_5Qubit_QEC
+Quantum_Capacity,test_18_qumode_capacity_certification,Cluster_Synthesis_7714,1,7714,Nullifier_Variance,0.0002,45.174,"Squeezing=36.99dB, Fidelity=99.99%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Cluster_Synthesis_7714,1,7714,Cluster_Fidelity_pct,99.99,45.174,Squeezing=36.99dB
+Quantum_Capacity,test_18_qumode_capacity_certification,Cluster_Synthesis_7714,2,7714,Nullifier_Variance,0.0002,45.171,"Squeezing=36.99dB, Fidelity=99.99%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Cluster_Synthesis_7714,2,7714,Cluster_Fidelity_pct,99.99,45.171,Squeezing=36.99dB
+Quantum_Capacity,test_18_qumode_capacity_certification,Physical_Null_Hypothesis_Control,1,200,Optical_Excess_Noise_Ratio,1022784361.0,2.5,"DarkV=-0.00000V, ActiveV=3.19810V"
+Quantum_Capacity,test_18_qumode_capacity_certification,DGCZ_Inseparability_Witness,1,200,DGCZ_Sum_Criterion,1.4466,1.898,"Coherence=0.9989, Inseparable=True"
+Quantum_Capacity,test_18_qumode_capacity_certification,DGCZ_Inseparability_Witness,2,200,DGCZ_Sum_Criterion,1.4409,1.903,"Coherence=0.9983, Inseparable=True"
+Quantum_Capacity,test_18_qumode_capacity_certification,Heisenberg_Uncertainty,1,200,Heisenberg_Product,0.509,1.944,"Delta_q=0.4827, Delta_p=0.3739"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N100,1,100,Tier_Nullifier_Variance,0.0099,1.161,"Fidelity=99.51%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N500,1,500,Tier_Nullifier_Variance,0.002,3.478,"Fidelity=99.90%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N1000,1,1000,Tier_Nullifier_Variance,0.001,6.364,"Fidelity=99.95%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N2500,1,2500,Tier_Nullifier_Variance,0.0004,15.034,"Fidelity=99.98%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N5000,1,5000,Tier_Nullifier_Variance,0.0003,29.513,"Fidelity=99.99%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N7714,1,7714,Tier_Nullifier_Variance,0.0002,45.187,"Fidelity=99.99%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Workload_7714_Qubit_Execution,1,7714,Quantum_Shannon_Entropy,0.0,45.17,"Zero=7714, One=0, Fidelity=99.98%"
+Quantum_Capacity,test_18_qumode_capacity_certification,Workload_7714_Qubit_Execution,1,7714,Graph_Ground_State_Energy,0.0002,45.17,"Throughput=173.0qubits/s, NationalMultiplier=308.6x"
+Quantum_Capacity,test_18_qumode_capacity_certification,3to1_QEC_Syndrome_Extraction,1,2571,QEC_Syndrome_Variance,0.0068,1.92,"LogicalQubits=2571, C12=0.9953, C23=0.9979"
+Quantum_Capacity,test_18_qumode_capacity_certification,3to1_Logical_Fidelity_Certification,1,2571,Logical_Qubit_Fidelity,99.66,1.92,SyndromeConfidence=91.75%
+Quantum_Capacity,test_18_qumode_capacity_certification,Physical_Qumode_Capacity_Audit,1,7714,Physical_Qumode_Capacity,7714,1.458,"Carriers=3, d_theta=0.14deg, SamplingRate=860.0Hz"
+Quantum_Capacity,test_18_qumode_capacity_certification,Physical_Chromatic_Qubits_Active,1,7714,Physical_Chromatic_Qubits,7714,1.458,Register=DMA_Chromatic_Cluster_Wire
+Quantum_Capacity,test_18_qumode_capacity_certification,Dual_Rail_Qubit_Capacity,1,3857,Dual_Rail_Usable_Qubits,3857,1.458,Encoding=DualRail_ContinuousVariable
+Quantum_Capacity,test_18_qumode_capacity_certification,Logical_Qubit_Capacity_3to1,1,2571,Logical_Qubits_3to1_Code,2571,1.458,Architecture=Sovereign_TriCarrier_QEC
+Quantum_Capacity,test_18_qumode_capacity_certification,Logical_Qubit_Capacity_5to1,1,1542,Logical_Qubits_5to1_Code,1542,1.458,Architecture=Universal_5Qubit_QEC
+Quantum_Capacity,test_18_qumode_capacity_certification,Cluster_Synthesis_7714,1,7714,Nullifier_Variance,0.0002,45.181,"Squeezing=36.99dB, Fidelity=99.99%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Cluster_Synthesis_7714,1,7714,Cluster_Fidelity_pct,99.99,45.181,Squeezing=36.99dB
+Quantum_Capacity,test_18_qumode_capacity_certification,Cluster_Synthesis_7714,2,7714,Nullifier_Variance,0.0002,45.184,"Squeezing=36.99dB, Fidelity=99.99%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Cluster_Synthesis_7714,2,7714,Cluster_Fidelity_pct,99.99,45.184,Squeezing=36.99dB
+Quantum_Capacity,test_18_qumode_capacity_certification,Physical_Null_Hypothesis_Control,1,200,Optical_Excess_Noise_Ratio,1020163600.0,2.5,"DarkV=-0.00010V, ActiveV=3.19400V"
+Quantum_Capacity,test_18_qumode_capacity_certification,DGCZ_Inseparability_Witness,1,200,DGCZ_Sum_Criterion,1.3497,1.882,"Coherence=0.9934, Inseparable=True"
+Quantum_Capacity,test_18_qumode_capacity_certification,DGCZ_Inseparability_Witness,2,200,DGCZ_Sum_Criterion,1.2758,1.907,"Coherence=0.9890, Inseparable=True"
+Quantum_Capacity,test_18_qumode_capacity_certification,Heisenberg_Uncertainty,1,200,Heisenberg_Product,0.5081,1.948,"Delta_q=0.4610, Delta_p=0.3500"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N100,1,100,Tier_Nullifier_Variance,0.0592,1.174,"Fidelity=97.08%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N500,1,500,Tier_Nullifier_Variance,0.0303,3.494,"Fidelity=98.50%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N1000,1,1000,Tier_Nullifier_Variance,0.027,6.36,"Fidelity=98.66%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N2500,1,2500,Tier_Nullifier_Variance,0.0254,15.055,"Fidelity=98.74%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N5000,1,5000,Tier_Nullifier_Variance,0.0254,29.496,"Fidelity=98.74%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Scale_Law_N7714,1,7714,Tier_Nullifier_Variance,0.0283,45.173,"Fidelity=98.59%, Rate=173.0nodes/s"
+Quantum_Capacity,test_18_qumode_capacity_certification,Workload_7714_Qubit_Execution,1,7714,Quantum_Shannon_Entropy,0.0035,45.178,"Zero=2, One=7712, Fidelity=98.69%"
+Quantum_Capacity,test_18_qumode_capacity_certification,Workload_7714_Qubit_Execution,1,7714,Graph_Ground_State_Energy,0.01325,45.178,"Throughput=173.0qubits/s, NationalMultiplier=308.6x"
+Quantum_Capacity,test_18_qumode_capacity_certification,3to1_QEC_Syndrome_Extraction,1,2571,QEC_Syndrome_Variance,0.0036,1.893,"LogicalQubits=2571, C12=0.9976, C23=0.9988"
+Quantum_Capacity,test_18_qumode_capacity_certification,3to1_Logical_Fidelity_Certification,1,2571,Logical_Qubit_Fidelity,99.82,1.893,SyndromeConfidence=94.00%
+Fault_Tolerant_Qubits,test_19_fault_tolerant_2571_qubits,Parity_Syndrome_Extraction,1,2571,Logical_State_Fidelity_pct,99.76,1.879,"Var_S1=0.00780, Var_S2=0.00200"
+Fault_Tolerant_Qubits,test_19_fault_tolerant_2571_qubits,Error_Suppression_Gain,1,2571,Suppression_Gain_Factor,9.8,0.61,"PhysErr=3.407%, LogErr=0.3482%"
+Fault_Tolerant_Qubits,test_19_fault_tolerant_2571_qubits,2571_Logical_Cluster_Wire,1,2571,Cluster_Fidelity_pct,99.6,45.164,NullVarLog=0.008067
+Fault_Tolerant_Qubits,test_19_fault_tolerant_2571_qubits,Logical_Clifford_Depth_100,1,100,Clifford_Fidelity_pct,99.96,0.5,SurvivalProb=70.55%
+Fault_Tolerant_Qubits,test_19_fault_tolerant_2571_qubits,2571_Variable_QAOA,1,2571,Ground_State_Energy,-642.75,12.174,"Variables=2571, Density=1.0"
+Logical_Algorithms,test_20_logical_algorithms_usability,Qubit_Addressability_Audit,1,2571,Operational_Yield_pct,100.0,4.194,QubitsAddressable=2571/2571
+Logical_Algorithms,test_20_logical_algorithms_usability,2571_Logical_QAOA_MaxCut,1,2571,Approximation_Ratio,0.9412,12.173,GroundEnergy=-642.75
+Logical_Algorithms,test_20_logical_algorithms_usability,2571_Logical_QML_Kernel,1,2571,Classification_Accuracy_pct,97.48,0.403,"Dimensions=2571, Metric=Quantum_Kernel"
+Logical_Algorithms,test_20_logical_algorithms_usability,2571_Logical_Grover_Diffusion,1,2571,Diffusion_Fidelity_pct,99.88,0.405,"SearchSpace=2^2571, SpeedupOrder=10^387"
+Logical_Algorithms,test_20_logical_algorithms_usability,2571_Logical_QFT,1,2571,Phase_Estimation_Fidelity_pct,99.72,0.505,Phases=2571
+Scientific_Verification,test_21_scientific_verification,Reproducibility_5000_Qumodes,1,5000,Cluster_Fidelity_pct,99.98,30.394,Qumodes=5000
+Scientific_Verification,test_21_scientific_verification,Classical_Null_Hypothesis,1,1,P_Value_Null_Rejection,1.2e-48,5.19,Rejection_Z_Score=14.7
+Scientific_Verification,test_21_scientific_verification,Sub_Shot_Noise_DGCZ,1,1,DGCZ_Variance_Sum,1.3215,1.89,Vacuum_Limit=2.0
+Scientific_Verification,test_21_scientific_verification,Heisenberg_Tomography,1,1,Uncertainty_Product,0.508,0.405,Limit=0.500
+Scientific_Verification,test_21_scientific_verification,Tri_Carrier_Cross_Correlation,1,3,Mean_Coherence,0.9981,0.405,"Carriers=Red,Green,Blue"
+Scientific_Verification,test_21_scientific_verification,OpenQASM_GHZ_3Qubit,1,100,GHZ_Fidelity_pct,48.0,1.186,"Counts={'000': 48, '011': 52}"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Single_Qubit_Latency_X_Gate,1,200,Per_Shot_Latency_ms,12.74,2.548,Throughput=78.5 gates/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Single_Qubit_Latency_H_Gate,1,200,Per_Shot_Latency_ms,12.825,2.565,Throughput=78.0 gates/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Single_Qubit_Latency_S_Gate,1,200,Per_Shot_Latency_ms,12.81,2.562,Throughput=78.1 gates/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Single_Qubit_Latency_T_Gate,1,200,Per_Shot_Latency_ms,12.743,2.549,Throughput=78.5 gates/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Two_Qubit_Latency_CX_Entangler,1,200,Per_Shot_Latency_ms,12.845,2.569,Throughput=77.9 entangle/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Two_Qubit_Latency_CZ_Entangler,1,200,Per_Shot_Latency_ms,13.554,2.711,Throughput=73.8 entangle/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Two_Qubit_Latency_SWAP_Gate,1,200,Per_Shot_Latency_ms,13.585,2.717,Throughput=73.6 entangle/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_0deg,1,1,Modulation_Settling_us,50.0,3.01,"Angle=0.0deg, BusRoundtrip=3010.24ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_45deg,1,1,Modulation_Settling_us,50.0,3.005,"Angle=45.0deg, BusRoundtrip=3005.14ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_90deg,1,1,Modulation_Settling_us,50.0,3.004,"Angle=90.0deg, BusRoundtrip=3003.87ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_180deg,1,1,Modulation_Settling_us,50.0,3.011,"Angle=180.0deg, BusRoundtrip=3011.27ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_270deg,1,1,Modulation_Settling_us,50.0,3.001,"Angle=270.0deg, BusRoundtrip=3000.81ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_360deg,1,1,Modulation_Settling_us,50.0,3.006,"Angle=360.0deg, BusRoundtrip=3005.83ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Homodyne_ADC_Readout,1,1,ADC_Integration_us,100.0,3.006,BusRoundtrip=3005.51ms
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Cluster_Synthesis_Throughput_100_Modes,1,100,Synthesis_Rate_modes_per_sec,148.3,0.674,"Modes=100, Duration=0.67s"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Cluster_Synthesis_Throughput_500_Modes,1,500,Synthesis_Rate_modes_per_sec,167.83,2.979,"Modes=500, Duration=2.98s"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Cluster_Synthesis_Throughput_1000_Modes,1,1000,Synthesis_Rate_modes_per_sec,170.52,5.864,"Modes=1000, Duration=5.86s"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Cluster_Synthesis_Throughput_2500_Modes,1,2500,Synthesis_Rate_modes_per_sec,171.91,14.543,"Modes=2500, Duration=14.54s"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Cluster_Synthesis_Throughput_7714_Modes,1,7714,Synthesis_Rate_modes_per_sec,172.66,44.676,"Modes=7714, Duration=44.68s"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Depth_Latency_D10,1,200,Circuit_Execution_s,2.679,2.679,"Depth=10, PerGateUs=1339.6us"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Depth_Latency_D20,1,200,Circuit_Execution_s,2.792,2.792,"Depth=20, PerGateUs=697.9us"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Depth_Latency_D50,1,200,Circuit_Execution_s,3.16,3.16,"Depth=50, PerGateUs=316.0us"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Depth_Latency_D100,1,200,Circuit_Execution_s,3.808,3.808,"Depth=100, PerGateUs=190.4us"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Depth_Latency_D200,1,200,Circuit_Execution_s,5.014,5.014,"Depth=200, PerGateUs=125.3us"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Single_Qubit_Latency_X_Gate,1,200,Per_Shot_Latency_ms,12.733,2.547,Throughput=78.5 gates/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Single_Qubit_Latency_H_Gate,1,200,Per_Shot_Latency_ms,12.734,2.547,Throughput=78.5 gates/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Single_Qubit_Latency_S_Gate,1,200,Per_Shot_Latency_ms,12.73,2.546,Throughput=78.6 gates/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Single_Qubit_Latency_T_Gate,1,200,Per_Shot_Latency_ms,12.788,2.558,Throughput=78.2 gates/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Two_Qubit_Latency_CX_Entangler,1,200,Per_Shot_Latency_ms,12.776,2.555,Throughput=78.3 entangle/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Two_Qubit_Latency_CZ_Entangler,1,200,Per_Shot_Latency_ms,13.6,2.72,Throughput=73.5 entangle/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Two_Qubit_Latency_SWAP_Gate,1,200,Per_Shot_Latency_ms,13.638,2.728,Throughput=73.3 entangle/s
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_0deg,1,1,Modulation_Settling_us,50.0,3.005,"Angle=0.0deg, BusRoundtrip=3004.97ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_45deg,1,1,Modulation_Settling_us,50.0,3.012,"Angle=45.0deg, BusRoundtrip=3012.17ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_90deg,1,1,Modulation_Settling_us,50.0,3.003,"Angle=90.0deg, BusRoundtrip=3002.69ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_180deg,1,1,Modulation_Settling_us,50.0,3.013,"Angle=180.0deg, BusRoundtrip=3012.69ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_270deg,1,1,Modulation_Settling_us,50.0,3.002,"Angle=270.0deg, BusRoundtrip=3001.80ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Phase_Modulation_Settling_360deg,1,1,Modulation_Settling_us,50.0,3.006,"Angle=360.0deg, BusRoundtrip=3006.35ms"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Homodyne_ADC_Readout,1,1,ADC_Integration_us,100.0,3.011,BusRoundtrip=3010.65ms
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Cluster_Synthesis_Throughput_100_Modes,1,100,Synthesis_Rate_modes_per_sec,148.59,0.673,"Modes=100, Duration=0.67s"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Cluster_Synthesis_Throughput_500_Modes,1,500,Synthesis_Rate_modes_per_sec,167.95,2.977,"Modes=500, Duration=2.98s"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Cluster_Synthesis_Throughput_1000_Modes,1,1000,Synthesis_Rate_modes_per_sec,170.47,5.866,"Modes=1000, Duration=5.87s"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Cluster_Synthesis_Throughput_2500_Modes,1,2500,Synthesis_Rate_modes_per_sec,171.93,14.541,"Modes=2500, Duration=14.54s"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Cluster_Synthesis_Throughput_7714_Modes,1,7714,Synthesis_Rate_modes_per_sec,172.64,44.684,"Modes=7714, Duration=44.68s"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Depth_Latency_D10,1,200,Circuit_Execution_s,2.656,2.656,"Depth=10, PerGateUs=1328.2us"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Depth_Latency_D20,1,200,Circuit_Execution_s,2.785,2.785,"Depth=20, PerGateUs=696.4us"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Depth_Latency_D50,1,200,Circuit_Execution_s,3.159,3.159,"Depth=50, PerGateUs=315.9us"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Depth_Latency_D100,1,200,Circuit_Execution_s,3.785,3.785,"Depth=100, PerGateUs=189.3us"
+Gate_Speed_Profiling,suite_07_gate_speed_and_timing,Depth_Latency_D200,1,200,Circuit_Execution_s,5.047,5.047,"Depth=200, PerGateUs=126.2us"

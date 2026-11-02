@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & OS files
+.env.local
+.DS_Store
+Thumbs.db
+
+# Timestamped execution run archives (track results/latest/ as reference baseline)
+results/202*
