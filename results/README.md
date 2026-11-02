@@ -14,3 +14,4 @@ The `latest/` directory contains the official NIST-grade reference baseline data
 ## Timestamped Runs (`results/YYYYMMDD_HHMMSS/`)
 
 When you run the battery suite on your own hardware (`python3 run_battery.py`), a new timestamped directory is created for each run. These local runs are ignored by git to keep your repository clean.
+
