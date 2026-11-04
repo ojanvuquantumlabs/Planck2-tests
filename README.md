@@ -20,7 +20,7 @@
 **Platform:** Planck 2 Continuous-Variable Quantum Computer (CVQC)  
 **Suite Designation:** Official Ojanvu Quantum Labs Test Suite (`batterytests_ojanvu`)  
 **Hardware Interface:** Dynamic Optoelectronic Direct Hardware Bus (Zero-Mock Standard)  
-**Operating Temperature:** $20^\circ\text{C} - 25^\circ\text{C}$ (Room-Temperature Zero Cryogenics)  
+**Operating Temperature:** 20°C – 25°C (Room-Temperature Zero Cryogenics)  
 
 ---
 
@@ -154,10 +154,10 @@ The battery suite encompasses **22 modular verification stages** covering the en
 
 | Module ID | Module File | Physical Observable / Focus | Acceptance Criteria |
 | :---: | :--- | :--- | :--- |
-| **01** | `test_01_calibration.py` | Optoelectronic dark floor, carrier baseline, extinction | Dark floor $< 0.1\text{V}$, Extinction $\ge 30\text{ dB}$ |
-| **02** | `test_02_bell_entanglement.py` | Canonical Bell states ($\lvert\Phi^\pm\rangle, \lvert\Psi^\pm\rangle$) | Fidelity $\ge 95.0$%, Inversion fidelity = 100% |
-| **03** | `test_03_single_qubit.py` | Pauli $X, Y, Z$, Hadamard, $R_y(\theta), R_z(\theta)$ sweeps | Unitary inversion fidelity $\ge 99.0$% |
-| **04** | `test_04_two_qubit.py` | $CX, CZ, \text{SWAP}$ entangling gate reversibility | Entanglement generation fidelity $\ge 98.0$% |
+| **01** | `test_01_calibration.py` | Optoelectronic dark floor, carrier baseline, extinction | Dark floor $< 0.1\text{ V}$, Extinction $\ge 30\text{ dB}$ |
+| **02** | `test_02_bell_entanglement.py` | Canonical Bell states ($\lvert\Phi^\pm\rangle, \lvert\Psi^\pm\rangle$) | Fidelity $\ge 95.0\%$, Inversion fidelity = $100\%$ |
+| **03** | `test_03_single_qubit.py` | Pauli $X, Y, Z$, Hadamard, $R_y(\theta), R_z(\theta)$ sweeps | Unitary inversion fidelity $\ge 99.0\%$ |
+| **04** | `test_04_two_qubit.py` | $CX, CZ, \text{SWAP}$ entangling gate reversibility | Entanglement generation fidelity $\ge 98.0\%$ |
 | **05** | `test_05_qubit_scaling.py` | Multipartite GHZ state scaling ($N = 2$ to $15$ qubits) | Monotonic multi-qubit coherence retention |
 | **06** | `test_06_gate_depth.py` | Deep circuit linearity stress ($D = 2$ to $200$ gates) | Zero instruction dropouts across deep circuits |
 | **07** | `test_07_quantum_volume.py` | Standard Quantum Volume benchmark ($m = 2$ to $12$) | $V_Q \ge 64$ verified under heavy-output criteria |
@@ -293,14 +293,14 @@ All multi-run data logged by this suite conforms to NIST Guidelines for Quantum 
 
 ### Empirical Replication Guarantee
 
-When executing this battery on a calibrated Planck 2 Continuous-Variable Quantum Computer under standard operating conditions ($20^\circ\text{C} - 25^\circ\text{C}$ ambient temperature, $< 1\text{ kW}$ supply), physical measurement results reproduce within empirical two-sigma tolerance:
+When executing this battery on a calibrated Planck 2 Continuous-Variable Quantum Computer under standard operating conditions (20°C–25°C ambient temperature, $< 1\text{ kW}$ supply), physical measurement results reproduce within empirical two-sigma tolerance:
 
 $$\text{Replication Margin} = \pm \Delta = \pm (t_{\alpha/2, \nu} \cdot \text{SEM}) \approx \pm (2 \cdot \text{CV})$$
 
-- **Single-Qubit Observables:** Reproducible within $\pm 0.8$% deviation.
-- **Two-Qubit Entangling Gates:** Reproducible within $\pm 1.7$% deviation.
-- **Bell State Fidelities:** Reproducible within $\pm 3.3$% deviation.
-- **Continuous-Variable Quadratures:** Reproducible within $\pm 0.1$% deviation.
+- **Single-Qubit Observables:** Reproducible within ±0.8% deviation.
+- **Two-Qubit Entangling Gates:** Reproducible within ±1.7% deviation.
+- **Bell State Fidelities:** Reproducible within ±3.3% deviation.
+- **Continuous-Variable Quadratures:** Reproducible within ±0.1% deviation.
 
 ---
 

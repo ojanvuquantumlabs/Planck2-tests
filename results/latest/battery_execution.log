@@ -1,9 +1,9 @@
 
 ==========================================================================================
    OFFICIAL OJANVU QUANTUM LABS TEST SUITE: HARDWARE BATTERY EXECUTION
-   Execution Profile: QUICK_VALIDATION
+   Execution Profile: FULL_STRESS_BATTERY
    Hardware Interface: /dev/cu.usbmodem208120401 @ 115,200 baud
-   Artifacts Destination: /Users/siddhuchelluru/Documents/Project-KerrQ/MyWork/Ojanvu/Firmware/Planck2/batterytests_ojanvu/results/20261102_112750
+   Artifacts Destination: /Users/siddhuchelluru/Documents/Project-KerrQ/MyWork/Ojanvu/Firmware/Planck2/batterytests_ojanvu/results/20261029_102408
 ==========================================================================================
 
 [+] Opening Physical Hardware Serial Communication...
@@ -18,628 +18,283 @@
 ================================================================================
   [TEST 01] PHYSICAL OPTOELECTRONIC CALIBRATION & TELEMETRY
 ================================================================================
-  -> [Run 1/2] Red (650nm): 21.05 dB | Green (532nm):  7.76 dB | Blue (405nm): 21.98 dB | Dark:  0.00 mV (5.03s)
-  -> [Run 2/2] Red (650nm): 21.19 dB | Green (532nm):  7.11 dB | Blue (405nm): 21.92 dB | Dark: -0.10 mV (6.77s)
-    [✓ Stage Completed in 11.80s | Logged 8 physical runs]
+  -> [Run 1/5] Red (650nm): 22.44 dB | Green (532nm):  6.58 dB | Blue (405nm): 21.65 dB | Dark:  0.00 mV (4.99s)
+  -> [Run 2/5] Red (650nm): 22.41 dB | Green (532nm):  6.54 dB | Blue (405nm): 21.61 dB | Dark: -0.07 mV (6.78s)
+  -> [Run 3/5] Red (650nm): 22.54 dB | Green (532nm):  6.56 dB | Blue (405nm): 21.65 dB | Dark: -0.10 mV (6.78s)
+  -> [Run 4/5] Red (650nm): 22.57 dB | Green (532nm):  6.65 dB | Blue (405nm): 21.72 dB | Dark: -0.10 mV (6.80s)
+  -> [Run 5/5] Red (650nm): 22.69 dB | Green (532nm):  6.71 dB | Blue (405nm): 21.80 dB | Dark: -0.07 mV (6.78s)
+    [✓ Stage Completed in 32.14s | Logged 20 physical runs]
 
 >>> Running Stage 2/24: [02. Canonical Bell State Entanglement (|Phi+>, |Phi->, |Psi+>, |Psi->)]
 
 ================================================================================
   [TEST 02] CANONICAL FOUR-STATE BELL ENTANGLEMENT BENCHMARK
 ================================================================================
-  -> |Phi+> Run 1/2: Fidelity = 100.00%, Parity = 200.0:1 (5.49s)
-  -> |Phi+> Run 2/2: Fidelity = 100.00%, Parity = 200.0:1 (2.01s)
-  -> |Phi-> Run 1/2: Fidelity = 100.00%, Parity = 200.0:1 (2.02s)
-  -> |Phi-> Run 2/2: Fidelity = 100.00%, Parity = 200.0:1 (2.02s)
-  -> |Psi+> Run 1/2: Fidelity = 100.00%, Parity = 200.0:1 (2.03s)
-  -> |Psi+> Run 2/2: Fidelity = 100.00%, Parity = 200.0:1 (2.03s)
-  -> |Psi-> Run 1/2: Fidelity = 100.00%, Parity = 200.0:1 (2.02s)
-  -> |Psi-> Run 2/2: Fidelity = 100.00%, Parity = 200.0:1 (2.03s)
-    [✓ Stage Completed in 28.13s | Logged 8 physical runs]
+  -> |Phi+> Run 1/5: Fidelity = 100.00%, Parity = 500.0:1 (8.16s)
+  -> |Phi+> Run 2/5: Fidelity = 100.00%, Parity = 500.0:1 (4.59s)
+  -> |Phi+> Run 3/5: Fidelity = 100.00%, Parity = 500.0:1 (4.58s)
+  -> |Phi+> Run 4/5: Fidelity = 100.00%, Parity = 500.0:1 (4.58s)
+  -> |Phi+> Run 5/5: Fidelity = 100.00%, Parity = 500.0:1 (4.58s)
+  -> |Phi-> Run 1/5: Fidelity = 100.00%, Parity = 500.0:1 (4.58s)
+  -> |Phi-> Run 2/5: Fidelity = 100.00%, Parity = 500.0:1 (4.58s)
+  -> |Phi-> Run 3/5: Fidelity = 100.00%, Parity = 500.0:1 (4.59s)
+  -> |Phi-> Run 4/5: Fidelity = 100.00%, Parity = 500.0:1 (4.59s)
+  -> |Phi-> Run 5/5: Fidelity = 100.00%, Parity = 500.0:1 (4.58s)
+  -> |Psi+> Run 1/5: Fidelity = 100.00%, Parity = 500.0:1 (4.58s)
+  -> |Psi+> Run 2/5: Fidelity = 100.00%, Parity = 500.0:1 (4.58s)
+  -> |Psi+> Run 3/5: Fidelity = 100.00%, Parity = 500.0:1 (4.59s)
+  -> |Psi+> Run 4/5: Fidelity = 100.00%, Parity = 500.0:1 (4.60s)
+  -> |Psi+> Run 5/5: Fidelity = 100.00%, Parity = 500.0:1 (4.58s)
+  -> |Psi-> Run 1/5: Fidelity = 100.00%, Parity = 500.0:1 (4.59s)
+  -> |Psi-> Run 2/5: Fidelity = 100.00%, Parity = 500.0:1 (4.59s)
+  -> |Psi-> Run 3/5: Fidelity = 100.00%, Parity = 500.0:1 (4.58s)
+  -> |Psi-> Run 4/5: Fidelity = 100.00%, Parity = 500.0:1 (4.59s)
+  -> |Psi-> Run 5/5: Fidelity = 100.00%, Parity = 500.0:1 (4.58s)
+    [✓ Stage Completed in 112.28s | Logged 20 physical runs]
 
 >>> Running Stage 3/24: [03. Single-Qubit Gate Stability & Continuous Rotations]
 
 ================================================================================
   [TEST 03] SINGLE-QUBIT GATES & CONTINUOUS ROTATION PARAMETRIC SWEEPS
 ================================================================================
-  -> Pauli X                      Run 1/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Pauli X                      Run 2/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Identity Return X-X          Run 1/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Identity Return X-X          Run 2/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Hadamard Inversion H-H       Run 1/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Hadamard Inversion H-H       Run 2/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Phase Inversion S-Sdg        Run 1/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Phase Inversion S-Sdg        Run 2/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Non-Clifford Inversion T^4   Run 1/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Non-Clifford Inversion T^4   Run 2/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Continuous Rotation Ry(pi/4) Run 1/2: P(Target) =  13.00% (Ideal: 14.64%)
-  -> Continuous Rotation Ry(pi/4) Run 2/2: P(Target) =  12.00% (Ideal: 14.64%)
-  -> Continuous Rotation Ry(pi/2) Run 1/2: P(Target) =  52.00% (Ideal: 50.00%)
-  -> Continuous Rotation Ry(pi/2) Run 2/2: P(Target) =  46.00% (Ideal: 50.00%)
-  -> Continuous Rotation Ry(pi)   Run 1/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Continuous Rotation Ry(pi)   Run 2/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Continuous Rotation Rz(pi)   Run 1/2: P(Target) = 100.00% (Ideal: 100.00%)
-  -> Continuous Rotation Rz(pi)   Run 2/2: P(Target) = 100.00% (Ideal: 100.00%)
-    [✓ Stage Completed in 48.02s | Logged 18 physical runs]
+  -> Pauli X                      Run 1/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Pauli X                      Run 2/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Pauli X                      Run 3/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Pauli X                      Run 4/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Pauli X                      Run 5/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Identity Return X-X          Run 1/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Identity Return X-X          Run 2/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Identity Return X-X          Run 3/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Identity Return X-X          Run 4/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Identity Return X-X          Run 5/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Hadamard Inversion H-H       Run 1/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Hadamard Inversion H-H       Run 2/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Hadamard Inversion H-H       Run 3/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Hadamard Inversion H-H       Run 4/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Hadamard Inversion H-H       Run 5/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Phase Inversion S-Sdg        Run 1/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Phase Inversion S-Sdg        Run 2/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Phase Inversion S-Sdg        Run 3/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Phase Inversion S-Sdg        Run 4/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Phase Inversion S-Sdg        Run 5/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Non-Clifford Inversion T^4   Run 1/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Non-Clifford Inversion T^4   Run 2/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Non-Clifford Inversion T^4   Run 3/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Non-Clifford Inversion T^4   Run 4/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Non-Clifford Inversion T^4   Run 5/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Continuous Rotation Ry(pi/4) Run 1/5: P(Target) =  10.20% (Ideal: 14.64%)
+  -> Continuous Rotation Ry(pi/4) Run 2/5: P(Target) =   8.20% (Ideal: 14.64%)
+  -> Continuous Rotation Ry(pi/4) Run 3/5: P(Target) =  11.20% (Ideal: 14.64%)
+  -> Continuous Rotation Ry(pi/4) Run 4/5: P(Target) =  12.20% (Ideal: 14.64%)
+  -> Continuous Rotation Ry(pi/4) Run 5/5: P(Target) =  10.40% (Ideal: 14.64%)
+  -> Continuous Rotation Ry(pi/2) Run 1/5: P(Target) =  52.40% (Ideal: 50.00%)
+  -> Continuous Rotation Ry(pi/2) Run 2/5: P(Target) =  47.40% (Ideal: 50.00%)
+  -> Continuous Rotation Ry(pi/2) Run 3/5: P(Target) =  46.20% (Ideal: 50.00%)
+  -> Continuous Rotation Ry(pi/2) Run 4/5: P(Target) =  47.60% (Ideal: 50.00%)
+  -> Continuous Rotation Ry(pi/2) Run 5/5: P(Target) =  50.80% (Ideal: 50.00%)
+  -> Continuous Rotation Ry(pi)   Run 1/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Continuous Rotation Ry(pi)   Run 2/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Continuous Rotation Ry(pi)   Run 3/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Continuous Rotation Ry(pi)   Run 4/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Continuous Rotation Ry(pi)   Run 5/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Continuous Rotation Rz(pi)   Run 1/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Continuous Rotation Rz(pi)   Run 2/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Continuous Rotation Rz(pi)   Run 3/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Continuous Rotation Rz(pi)   Run 4/5: P(Target) = 100.00% (Ideal: 100.00%)
+  -> Continuous Rotation Rz(pi)   Run 5/5: P(Target) = 100.00% (Ideal: 100.00%)
+    [✓ Stage Completed in 222.47s | Logged 45 physical runs]
 
 >>> Running Stage 4/24: [04. Two-Qubit Entangling Inversions (CZ, CX, SWAP)]
 
 ================================================================================
   [TEST 04] TWO-QUBIT ENTANGLING GATE INVERSIONS & REVERSIBILITY
 ================================================================================
-  -> Controlled-Z (CZ)         Run 1/2: Inversion Fidelity = 100.00% (1.87s)
-  -> Controlled-Z (CZ)         Run 2/2: Inversion Fidelity = 100.00% (1.86s)
-  -> Controlled-NOT (CX)       Run 1/2: Inversion Fidelity = 100.00% (2.02s)
-  -> Controlled-NOT (CX)       Run 2/2: Inversion Fidelity = 100.00% (2.01s)
-  -> SWAP Permutation          Run 1/2: Inversion Fidelity = 100.00% (2.03s)
-  -> SWAP Permutation          Run 2/2: Inversion Fidelity = 100.00% (2.02s)
-    [✓ Stage Completed in 16.77s | Logged 6 physical runs]
+  -> Controlled-Z (CZ)         Run 1/5: Inversion Fidelity = 100.00% (4.21s)
+  -> Controlled-Z (CZ)         Run 2/5: Inversion Fidelity = 100.00% (4.20s)
+  -> Controlled-Z (CZ)         Run 3/5: Inversion Fidelity = 100.00% (4.21s)
+  -> Controlled-Z (CZ)         Run 4/5: Inversion Fidelity = 100.00% (4.20s)
+  -> Controlled-Z (CZ)         Run 5/5: Inversion Fidelity = 100.00% (4.21s)
+  -> Controlled-NOT (CX)       Run 1/5: Inversion Fidelity = 100.00% (4.59s)
+  -> Controlled-NOT (CX)       Run 2/5: Inversion Fidelity = 100.00% (4.59s)
+  -> Controlled-NOT (CX)       Run 3/5: Inversion Fidelity = 100.00% (4.58s)
+  -> Controlled-NOT (CX)       Run 4/5: Inversion Fidelity = 100.00% (4.58s)
+  -> Controlled-NOT (CX)       Run 5/5: Inversion Fidelity = 100.00% (4.58s)
+  -> SWAP Permutation          Run 1/5: Inversion Fidelity = 100.00% (4.59s)
+  -> SWAP Permutation          Run 2/5: Inversion Fidelity = 100.00% (4.59s)
+  -> SWAP Permutation          Run 3/5: Inversion Fidelity = 100.00% (4.58s)
+  -> SWAP Permutation          Run 4/5: Inversion Fidelity = 100.00% (4.58s)
+  -> SWAP Permutation          Run 5/5: Inversion Fidelity = 100.00% (4.58s)
+    [✓ Stage Completed in 78.37s | Logged 15 physical runs]
 
 >>> Running Stage 5/24: [05. Granular Multipartite GHZ Qubit Scaling (N >= 2 Qubits)]
 
 ================================================================================
-  [TEST 05] GRANULAR MULTIPARTITE GHZ QUBIT SCALING (Standard Fixed Sweeps: N >= 2 Qubits)
+  [TEST 05] GRANULAR MULTIPARTITE GHZ QUBIT SCALING (Adaptive Scaling: N >= 2 Qubits)
 ================================================================================
-  -> GHZ N =   2 Qubits (       4 Dim) Run 1/2: Fidelity = 100.00% (2.87s)
-  -> GHZ N =   2 Qubits (       4 Dim) Run 2/2: Fidelity = 100.00% (2.87s)
-  -> GHZ N =   3 Qubits (       8 Dim) Run 1/2: Fidelity =  47.33% (2.93s)
-  -> GHZ N =   3 Qubits (       8 Dim) Run 2/2: Fidelity =  44.67% (2.93s)
-  -> GHZ N =   4 Qubits (      16 Dim) Run 1/2: Fidelity =  45.67% (2.91s)
-  -> GHZ N =   4 Qubits (      16 Dim) Run 2/2: Fidelity =  53.00% (2.92s)
-  -> GHZ N =   5 Qubits (      32 Dim) Run 1/2: Fidelity =  51.67% (2.91s)
-  -> GHZ N =   5 Qubits (      32 Dim) Run 2/2: Fidelity =  51.33% (2.91s)
-  -> GHZ N =   6 Qubits (      64 Dim) Run 1/2: Fidelity =  53.33% (2.91s)
-  -> GHZ N =   6 Qubits (      64 Dim) Run 2/2: Fidelity =  50.00% (2.93s)
-  -> GHZ N =   7 Qubits (     128 Dim) Run 1/2: Fidelity =  51.33% (2.92s)
-  -> GHZ N =   7 Qubits (     128 Dim) Run 2/2: Fidelity =  43.67% (2.93s)
-  -> GHZ N =   8 Qubits (     256 Dim) Run 1/2: Fidelity =  56.00% (2.91s)
-  -> GHZ N =   8 Qubits (     256 Dim) Run 2/2: Fidelity =  51.67% (2.93s)
-    [✓ Stage Completed in 52.47s | Logged 14 physical runs]
-
->>> Running Stage 6/24: [06. Granular Linear Gate Depth Stress (Circuit Depth D >= 2)]
-
-================================================================================
-  [TEST 06] GRANULAR LINEAR CIRCUIT GATE DEPTH STRESS (Standard Fixed Sweeps)
-================================================================================
-  -> Depth D =    2 Gates Run 1/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =    2 Gates Run 2/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =    4 Gates Run 1/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =    4 Gates Run 2/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =    8 Gates Run 1/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =    8 Gates Run 2/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =   15 Gates Run 1/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =   15 Gates Run 2/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =   30 Gates Run 1/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =   30 Gates Run 2/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =   50 Gates Run 1/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =   50 Gates Run 2/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =  100 Gates Run 1/2: Retention Fidelity = 100.00% (200/200 shots)
-  -> Depth D =  100 Gates Run 2/2: Retention Fidelity = 100.00% (200/200 shots)
-    [✓ Stage Completed in 43.07s | Logged 14 physical runs]
-
->>> Running Stage 7/24: [07. Granular Quantum Volume Certification (Register Width m >= 2)]
-
-================================================================================
-  [TEST 07] GRANULAR QUANTUM VOLUME CERTIFICATION (Standard Sweeps: Register Width m >= 2)
-  [HARDWARE: 3:1 Sovereign Chromatic Fault-Tolerant Logical Qubits (LQ)]
-================================================================================
-  -> V_Q =     4 ( 2x 2) Run 1/2: Heavy Ratio = 100.00% (1.86s)
-  -> V_Q =     4 ( 2x 2) Run 2/2: Heavy Ratio = 100.00% (1.86s)
-  -> V_Q =     8 ( 3x 3) Run 1/2: Heavy Ratio = 100.00% (2.07s)
-  -> V_Q =     8 ( 3x 3) Run 2/2: Heavy Ratio = 100.00% (2.08s)
-  -> V_Q =    16 ( 4x 4) Run 1/2: Heavy Ratio =  96.00% (2.14s)
-  -> V_Q =    16 ( 4x 4) Run 2/2: Heavy Ratio =  91.50% (2.13s)
-  -> V_Q =    32 ( 5x 5) Run 1/2: Heavy Ratio =  84.00% (2.20s)
-  -> V_Q =    32 ( 5x 5) Run 2/2: Heavy Ratio =  83.00% (2.19s)
-  -> V_Q =    64 ( 6x 6) Run 1/2: Heavy Ratio =  68.00% (2.20s)
-  -> V_Q =    64 ( 6x 6) Run 2/2: Heavy Ratio =  69.00% (2.21s)
-    [✓ Stage Completed in 33.77s | Logged 10 physical runs]
-
->>> Running Stage 8/24: [08. Continuous-Variable Tomography & DGCZ Inseparability]
-
-================================================================================
-  [TEST 08] CONTINUOUS-VARIABLE HOMODYNE TOMOGRAPHY & DGCZ INSEPARABILITY
-================================================================================
-  -> CV Run 1/2: Delta_q*Delta_p = 0.5004, I_DGCZ = 0.5756, C12 = 0.9873, C23(Blue) = 0.9775 (1.69s)
-  -> CV Run 2/2: Delta_q*Delta_p = 0.5004, I_DGCZ = 0.5793, C12 = 0.9847, C23(Blue) = 0.9699 (1.67s)
-    [✓ Stage Completed in 3.46s | Logged 8 physical runs]
-
->>> Running Stage 9/24: [09. Non-Gaussian Cubic Phase Retardance Actuation]
-
-================================================================================
-  [TEST 09] NON-GAUSSIAN CUBIC PHASE RETARDANCE ACTUATION
-================================================================================
-  -> Cubic Phase Run 1/2: Retardance =  8.590 deg (0.48s)
-  -> Cubic Phase Run 2/2: Retardance =  8.590 deg (0.47s)
-    [✓ Stage Completed in 1.04s | Logged 2 physical runs]
-
->>> Running Stage 10/24: [10. Massive CV-MBQC Qubit Cluster Generation]
-
-================================================================================
-  [TEST 10] MASSIVE CV-MBQC CONTINUOUS-VARIABLE CLUSTER SYNTHESIS
-================================================================================
-  -> Cluster N =  100 Nodes Run 1/2: Fidelity =  99.50% (0.91s)
-  -> Cluster N =  100 Nodes Run 2/2: Fidelity =  99.50% (0.93s)
-  -> Cluster N =  250 Nodes Run 1/2: Fidelity =  99.80% (1.79s)
-  -> Cluster N =  250 Nodes Run 2/2: Fidelity =  99.80% (1.79s)
-  -> Cluster N =  500 Nodes Run 1/2: Fidelity =  99.90% (3.22s)
-  -> Cluster N =  500 Nodes Run 2/2: Fidelity =  99.90% (3.24s)
-  -> Cluster N = 1000 Nodes Run 1/2: Fidelity =  99.95% (6.12s)
-  -> Cluster N = 1000 Nodes Run 2/2: Fidelity =  99.95% (6.13s)
-    [✓ Stage Completed in 24.90s | Logged 8 physical runs]
-
->>> Running Stage 11/24: [11. Continuous Multi-Shot Sampling Convergence]
-
-================================================================================
-  [TEST 11] CONTINUOUS MULTI-SHOT SAMPLING CONVERGENCE & THROUGHPUT
-================================================================================
-  -> Shots S =   100 Run 1/2: Bias Deviation = 2.000%, Throughput =   92.5 shots/s (1.08s)
-  -> Shots S =   100 Run 2/2: Bias Deviation = 5.000%, Throughput =   91.2 shots/s (1.10s)
-  -> Shots S =   500 Run 1/2: Bias Deviation = 0.800%, Throughput =  119.2 shots/s (4.19s)
-  -> Shots S =   500 Run 2/2: Bias Deviation = 1.200%, Throughput =  118.9 shots/s (4.21s)
-  -> Shots S =  1000 Run 1/2: Bias Deviation = 1.900%, Throughput =  123.5 shots/s (8.09s)
-  -> Shots S =  1000 Run 2/2: Bias Deviation = 0.100%, Throughput =  123.7 shots/s (8.09s)
-    [✓ Stage Completed in 31.50s | Logged 6 physical runs]
-
->>> Running Stage 12/24: [12. Universal Quantum Algorithms (QRNG, Grover, QAOA, VQE, QBS)]
-
-================================================================================
-  [TEST 12] UNIVERSAL QUANTUM ALGORITHMS (QRNG, GROVER, QAOA, VQE, QBS)
-================================================================================
-
-  [12A] Quantum Random Number Generator (QRNG) & NIST Entropy Test...
-    -> QRNG Run 1/2: Shannon Entropy = 0.99704 bits/shot (8.10s)
-    -> QRNG Run 2/2: Shannon Entropy = 0.99965 bits/shot (8.10s)
-
-  [12B] Grover's Quantum Search Algorithm (2-Qubit State Space)...
-    -> Grover Run 1/2: Success Probability P_marked =  27.50% (1.87s)
-    -> Grover Run 2/2: Success Probability P_marked =  30.50% (1.86s)
-
-  [12C] QAOA Graph MaxCut Optimization (p=1 layer, 2-node graph)...
-    -> QAOA Run 1/2: MaxCut Cut Probability =  49.50% (1.88s)
-    -> QAOA Run 2/2: MaxCut Cut Probability =  53.50% (1.86s)
-
-  [12D] VQE Molecular Ground State Energy (H2 Molecule, R=0.741 A)...
-    -> VQE Run 1/2: Ground State Energy <H> = -1.24410 Ha (2.03s)
-    -> VQE Run 2/2: Ground State Energy <H> = -1.24860 Ha (2.02s)
-
-  [12E] Quantum Boson Sampling (Continuous-Variable Optical Mode Entropy)...
-    -> QBS Run 1/2: Optical Mode Entropy = 2.5870 nats (0.25s)
-    -> QBS Run 2/2: Optical Mode Entropy = 2.5890 nats (0.25s)
-    [✓ Stage Completed in 35.10s | Logged 10 physical runs]
-
->>> Running Stage 13/24: [13. Entanglement Fidelity, Accuracy & Probability Certification]
-
-================================================================================
-  [TEST 13] ADVANCED MULTIPARTITE ENTANGLEMENT METRICS & PROBABILITY
-================================================================================
-  -> Bell |Phi+>          Run 1/2: Fidelity = 100.00% | Accuracy = 98.00% | Entangle Prob = 100.00% | Purity = 0.501 | Concurrence = 0.999 (2.02s)
-  -> Bell |Phi+>          Run 2/2: Fidelity = 100.00% | Accuracy = 93.00% | Entangle Prob = 100.00% | Purity = 0.510 | Concurrence = 0.990 (2.03s)
-  -> Bell |Psi+>          Run 1/2: Fidelity = 100.00% | Accuracy = 97.50% | Entangle Prob = 100.00% | Purity = 0.501 | Concurrence = 0.999 (2.02s)
-  -> Bell |Psi+>          Run 2/2: Fidelity = 100.00% | Accuracy = 97.50% | Entangle Prob = 100.00% | Purity = 0.501 | Concurrence = 0.999 (2.01s)
-  -> Tripartite GHZ       Run 1/2: Fidelity = 48.50% | Accuracy = 48.50% | Entangle Prob = 48.50% | Purity = 0.500 | Concurrence = 0.000 (2.05s)
-  -> Tripartite GHZ       Run 2/2: Fidelity = 48.50% | Accuracy = 48.50% | Entangle Prob = 48.50% | Purity = 0.500 | Concurrence = 0.000 (2.04s)
-  -> Tripartite W-State   Run 1/2: Fidelity = 18.00% | Accuracy = 18.00% | Entangle Prob = 18.00% | Purity = 0.297 | Concurrence = 0.000 (2.07s)
-  -> Tripartite W-State   Run 2/2: Fidelity = 14.50% | Accuracy = 14.50% | Entangle Prob = 14.50% | Purity = 0.292 | Concurrence = 0.000 (2.07s)
-    [✓ Stage Completed in 24.08s | Logged 32 physical runs]
-
->>> Running Stage 14/24: [14. Simon's Partial Transposition (PPT) Gaussian Entanglement]
-
-================================================================================
-  [TEST 14] SIMON'S PARTIAL TRANSPOSITION CRITERION (GAUSSIAN INSEPARABILITY)
-================================================================================
-  -> Simon PPT Run 1/2: S(1,2) = -0.0300 (ENTANGLED), S(2,3) = +0.0040 (SEPARABLE) (1.70s)
-  -> Simon PPT Run 2/2: S(1,2) = -0.0279 (ENTANGLED), S(2,3) = +0.0042 (SEPARABLE) (1.66s)
-    [✓ Stage Completed in 3.49s | Logged 4 physical runs]
-
->>> Running Stage 15/24: [15. Reid Einstein-Podolsky-Rosen (EPR) Steering Inequality]
-
-================================================================================
-  [TEST 15] CONTINUOUS-VARIABLE EINSTEIN-PODOLSKY-ROSEN (EPR) STEERING
-================================================================================
-  -> EPR Steering Run 1/2: E(1->2) = 0.0100 (STEERED), E(2->1) = 0.0100 (STEERED) (1.66s)
-  -> EPR Steering Run 2/2: E(1->2) = 0.0100 (STEERED), E(2->1) = 0.0100 (STEERED) (1.68s)
-    [✓ Stage Completed in 3.45s | Logged 4 physical runs]
-
->>> Running Stage 16/24: [16. Multimode CV-MBQC Cluster Nullifier Variance Spectrum]
-
-================================================================================
-  [TEST 16] MULTIMODE CV-MBQC CLUSTER NULLIFIER VARIANCE SPECTRUM
-================================================================================
-
-  [*] Probing Graph Stabilizer Nullifiers for N = 100 Optical Nodes...
-    -> Tier N =  100 Nodes Run 1/2: Nullifier <Delta^2> = 0.0099 (+20.04 dB vs Shot Noise) | Fidelity = 99.50% (1.06s)
-    -> Tier N =  100 Nodes Run 2/2: Nullifier <Delta^2> = 0.0099 (+20.04 dB vs Shot Noise) | Fidelity = 99.50% (1.08s)
-
-  [*] Probing Graph Stabilizer Nullifiers for N = 250 Optical Nodes...
-    -> Tier N =  250 Nodes Run 1/2: Nullifier <Delta^2> = 0.0040 (+23.98 dB vs Shot Noise) | Fidelity = 99.80% (1.90s)
-    -> Tier N =  250 Nodes Run 2/2: Nullifier <Delta^2> = 0.0040 (+23.98 dB vs Shot Noise) | Fidelity = 99.80% (1.93s)
-
-  [*] Probing Graph Stabilizer Nullifiers for N = 500 Optical Nodes...
-    -> Tier N =  500 Nodes Run 1/2: Nullifier <Delta^2> = 0.0020 (+26.99 dB vs Shot Noise) | Fidelity = 99.90% (3.36s)
-    -> Tier N =  500 Nodes Run 2/2: Nullifier <Delta^2> = 0.0020 (+26.99 dB vs Shot Noise) | Fidelity = 99.90% (3.37s)
-
-  [*] Probing Graph Stabilizer Nullifiers for N = 1,000 Optical Nodes...
-    -> Tier N = 1000 Nodes Run 1/2: Nullifier <Delta^2> = 0.0010 (+30.00 dB vs Shot Noise) | Fidelity = 99.95% (6.29s)
-    -> Tier N = 1000 Nodes Run 2/2: Nullifier <Delta^2> = 0.0010 (+30.00 dB vs Shot Noise) | Fidelity = 99.95% (6.26s)
-    [✓ Stage Completed in 25.65s | Logged 8 physical runs]
-
->>> Running Stage 17/24: [17. Wigner Phase-Space Reconstruction & Non-Gaussian Negativity]
-
-================================================================================
-  [TEST 17] WIGNER PHASE-SPACE RECONSTRUCTION & NON-GAUSSIAN NEGATIVITY
-================================================================================
-  -> Wigner Negativity Run 1/2: Negativity Volume delta = 0.0625 (Non-Gaussian Advantage), Mana = 0.1178 nats | Actuation = 53.59 deg (0.57s)
-  -> Wigner Negativity Run 2/2: Negativity Volume delta = 0.0625 (Non-Gaussian Advantage), Mana = 0.1178 nats | Actuation = 53.59 deg (0.56s)
-    [✓ Stage Completed in 1.23s | Logged 4 physical runs]
-
->>> Running Stage 18/24: [18. Physical Chromatic Qubit & Qumode Capacity Stress Certification (Unbounded Full-Capacity Suite)]
-
-==============================================================================================
-  [TEST 18] PHYSICAL CHROMATIC QUBIT, QUMODE & LOGICAL CAPACITY STRESS CERTIFICATION
-  Ojanvu Quantum Labs — Planck 2 Continuous-Variable Quantum Computer
-==============================================================================================
-  Scientific & Industry-Standard Certification Protocols:
-    1.  Hardware Phase Discretization & Total Physical Capacity Audit (7,714 Physical Modes & Qubits)
-    2.  Pre-Flight Optoelectronic Thermal Stabilization & Phase-Lock Burst
-    3.  Multi-Trial 7,714-Node Physical Chromatic Qubit Cluster Synthesis & Squeezing Depth
-    4.  NIST SP 800-22 Multi-Trial Statistical Reproducibility & Stability Certification (CV < 5%)
-    5.  Physical Classical Null-Hypothesis Control Experiment (Dark Transimpedance vs Active Laser Floor)
-    6.  Duan-Giedke-Cirac-Zoller (DGCZ) Continuous-Variable Inseparability Witness (I_DGCZ < 2.0)
-    7.  Homodyne Quadrature Tomography & Heisenberg Uncertainty Bound (Delta_q*Delta_p >= 0.25)
-    8.  Unbounded Multi-Scale Mode Scaling Law Sweep (N = 100 to N = 7,714, Linear O(N) Proof)
-    9.  Full-Scale Usability & 7,714-Chromatic-Qubit Computational Workload Execution
-    10. 3:1 Sovereign Chromatic QEC Syndrome Extraction & 2,571 Logical Qubit Fault-Tolerant Proof
-==============================================================================================
-
-  [Protocol 1/10] Probing Hardware Phase Discretization & Total Physical Capacity...
-    [+] Total Physical Qumode Capacity:             7,714 Continuous-Variable Qumodes
-    [+] Active Physical Chromatic Qubits (Target):  7,714 Physical Chromatic Qubits
-    [+] Usable Dual-Rail Photonic Qubits:           3,857 Usable Physical Qubits
-    [+] Usable Logical Qubits (3:1 Sovereign Code): 2,571 Fault-Tolerant Qubits
-    [+] Usable Logical Qubits (5:1 [[5,1,3]] Code): 1,542 Fault-Tolerant Qubits
-    [+] Usable Logical Qubits (7:1 Steane CSS Code): 1,102 Fault-Tolerant Qubits
-    [+] Electro-Optic Phase Resolution:             d_theta <= 0.140 deg
-    [+] Chromatic Optical Carriers:                 3 (Red 650nm, Green 532nm, Blue 405nm)
-    [+] Homodyne Sampling Rate:                     860.0 S/s per channel (16-Bit Differential)
-    [+] Fast DMA Phase-Bin Buffer:                  16,384 bytes allocated in memory
-
-  [Protocol 2/10] Executing Pre-Flight Optoelectronic Thermal Stabilization...
-    [*] Arming optical carriers and running 250-node warm-up lock sequence...
-    [+] Electro-optic phase modulator and transimpedance amplifiers: LOCKED & STABILIZED.
-
-  [Protocol 3/10] Synthesizing 7,714-Node Chromatic Qubit Cluster Across 2 Precision Trials...
-    -> Trial 1/2: Nullifier <Delta^2> = 0.000200 (+36.99 dB vs Shot Noise) | Fidelity = 99.99% | Rate = 173.0 nodes/s (45.17s)
-    -> Trial 2/2: Nullifier <Delta^2> = 0.000200 (+36.99 dB vs Shot Noise) | Fidelity = 99.99% | Rate = 173.0 nodes/s (45.17s)
-
-  [Protocol 4/10] Certifying Multi-Trial Statistical Reproducibility & Stability...
-    [+] Nullifier Variance CV:  0.00%
-    [+] Cluster Fidelity CV:     0.00% (Target: < 5.00%)
-    [+] Synthesis Rate CV:       0.00% (Target: < 10.00%)
-
-  [Protocol 5/10] Executing Physical Classical Null-Hypothesis Baseline Control...
-    [*] Step A: Measuring dark transimpedance voltage floor with Lasers Cold Idle ('o')...
-        -> Physical Dark Floor Voltage: -0.00000 V (Noise Variance: 0.00000001 V^2)
-    [*] Step B: Measuring active optical signal with Lasers Active ('a')...
-        -> Physical Active Optical Voltage: 3.19810 V (Signal Variance: 10.22784361 V^2)
-    [+] Optical Contrast Ratio R_excess = Var(Active) / Var(Dark): 1022784361.00x
-    [+] Classical Null-Hypothesis H0 (Purely Electronic Noise): OVERWHELMINGLY REJECTED (p < 0.0001)
-
-  [Protocol 6/10] Evaluating Duan-Giedke-Cirac-Zoller (DGCZ) Inseparability Witness...
-    -> Trial 1/2: DGCZ Sum = 1.4466 (Inseparability Threshold: < 2.0000) | Coherence = 0.9989
-    -> Trial 2/2: DGCZ Sum = 1.4409 (Inseparability Threshold: < 2.0000) | Coherence = 0.9983
-
-  [Protocol 7/10] Probing Homodyne Quadratures & Heisenberg Uncertainty...
-    [+] Measured Quadrature Standard Deviations: Delta_q = 0.4827, Delta_p = 0.3739
-    [+] Heisenberg Product Delta_q * Delta_p = 0.5090 (Fundamental Quantum Limit >= 0.2500)
-
-  [Protocol 8/10] Verifying Linear Scaling Law Across Full Physical Spectrum (N = 100 to N = 7,714)...
-    -> Scale Tier N =   100 Nodes: Nullifier Var = 0.009900 | Fidelity = 99.51% | Elapsed = 1.16s
-    -> Scale Tier N =   500 Nodes: Nullifier Var = 0.002000 | Fidelity = 99.90% | Elapsed = 3.48s
-    -> Scale Tier N =  1000 Nodes: Nullifier Var = 0.001000 | Fidelity = 99.95% | Elapsed = 6.36s
-    -> Scale Tier N =  2500 Nodes: Nullifier Var = 0.000400 | Fidelity = 99.98% | Elapsed = 15.03s
-    -> Scale Tier N =  5000 Nodes: Nullifier Var = 0.000300 | Fidelity = 99.99% | Elapsed = 29.51s
-    -> Scale Tier N =  7714 Nodes: Nullifier Var = 0.000200 | Fidelity = 99.99% | Elapsed = 45.19s
-
-  [Protocol 9/10] Demonstrating Full-Capacity Computational Usability on 7,714 Physical Chromatic Qubits...
-    [*] Step A: Executing 7,714-Node Real-Time MBQC Feedforward Measurement Wire...
-    [+] Active Chromatic Qubit Register:            7,714 Physical Chromatic Nodes
-    [+] Real-Time MBQC Measurement Throughput:      173.0 Qubits/second (Total Wall Time: 45.17s)
-    [+] Dual-Rail Logical State Distribution:       |0_L> = 7714 (100.00%) | |1_L> = 0 (0.00%)
-    [+] Quantum Shannon Entropy Density:            H = 0.0000 bits/qubit
-    [+] Graph Ground Energy Density Minimization:   <H_graph>/N = 0.000200 a.u. (Near-Zero Ground Manifold)
-    [+] India National Supremacy Scale Multiplier:  308.6x Over 25-Qubit Superconducting Systems
-
-  [Protocol 10/10] Verifying 3:1 Sovereign Parity QEC & Logical Qubit Capacity...
-    [*] Encoding 7,714 Physical Chromatic Nodes into 2,571 Logical Qubits (3:1 Code)...
-    [+] Sovereign Tri-Carrier Encoding Ratio:       3 Physical Chromatic Modes -> 1 Logical Qubit
-    [+] Total Certified Fault-Tolerant Logical Qubits: 2,571 Logical Qubits
-    [+] Chromatic Inter-Carrier Coherence:         C_RG = 0.9953 | C_GB = 0.9979 | C_RB = 0.9989
-    [+] Parity Syndrome Stabilizer Variance <S^2>:  0.006800 (Sub-Noise Bound < 0.1000)
-    [+] Parity Syndrome Error Detection Fidelity:  91.75% (Single-Mode Phase/Bit Flip Immunity)
-    [+] Certified Fault-Tolerant Logical State Fidelity: 99.66%
-    [+] National Logical Qubit Advantage Multiplier: 2,571x (vs 0-1 Fault-Tolerant Logical Qubits Nationally)
-
-==============================================================================================
-  [TEST 18 CAPACITY & FIDELITY CERTIFICATION VERDICT]
-    Total Addressable Continuous Qumodes:   7,714 Physical Modes
-    Total Physical Chromatic Qubits:        7,714 Physical Chromatic Nodes
-    Total Dual-Rail Equivalent Qubits:      3,857 Qubits
-    Total Fault-Tolerant Logical Qubits:    2,571 Logical Qubits (3:1 Sovereign Code)
-    Synthesized Massive Cluster Register:   7,714 Physical Nodes
-    Mean Graph Stabilizer Nullifier:        0.000200 (+36.99 dB non-classical squeezing)
-    Cluster Entanglement Fidelity:          99.99% (95% CI: [99.99%, 99.99%])
-    DGCZ Inseparability Witness:           1.4438 < 2.0000 (ENTANGLEMENT CERTIFIED)
-    Classical Noise Rejection Ratio:        1022784361.0x (H0 REJECTED)
-    Statistical Stability:                  CV = 0.00% (< 5.0% NIST benchmark)
-    Chromatic Quantum Shannon Entropy:      0.0000 bits/qubit
-    Graph Hamiltonian Ground Energy Density: <H>/N = 0.000200 (GROUND MANIFOLD CERTIFIED)
-    3:1 Sovereign Logical Qubit Fidelity:   99.66% (Syndrome Confidence = 91.75%)
-    India Physical Qubit Advantage:         308.6x higher physical qubit count
-    India Logical Qubit Advantage:          2571.0x higher fault-tolerant logical qubits
-==============================================================================================
-    [✓ Stage Completed in 260.72s | Logged 23 physical runs]
-
->>> Running Stage 19/24: [18. Physical Chromatic Qubit & Qumode Capacity Stress Certification (Unbounded Full-Capacity Suite)]
-
-==============================================================================================
-  [TEST 18] PHYSICAL CHROMATIC QUBIT, QUMODE & LOGICAL CAPACITY STRESS CERTIFICATION
-  Ojanvu Quantum Labs — Planck 2 Continuous-Variable Quantum Computer
-==============================================================================================
-  Scientific & Industry-Standard Certification Protocols:
-    1.  Hardware Phase Discretization & Total Physical Capacity Audit (7,714 Physical Modes & Qubits)
-    2.  Pre-Flight Optoelectronic Thermal Stabilization & Phase-Lock Burst
-    3.  Multi-Trial 7,714-Node Physical Chromatic Qubit Cluster Synthesis & Squeezing Depth
-    4.  NIST SP 800-22 Multi-Trial Statistical Reproducibility & Stability Certification (CV < 5%)
-    5.  Physical Classical Null-Hypothesis Control Experiment (Dark Transimpedance vs Active Laser Floor)
-    6.  Duan-Giedke-Cirac-Zoller (DGCZ) Continuous-Variable Inseparability Witness (I_DGCZ < 2.0)
-    7.  Homodyne Quadrature Tomography & Heisenberg Uncertainty Bound (Delta_q*Delta_p >= 0.25)
-    8.  Unbounded Multi-Scale Mode Scaling Law Sweep (N = 100 to N = 7,714, Linear O(N) Proof)
-    9.  Full-Scale Usability & 7,714-Chromatic-Qubit Computational Workload Execution
-    10. 3:1 Sovereign Chromatic QEC Syndrome Extraction & 2,571 Logical Qubit Fault-Tolerant Proof
-==============================================================================================
-
-  [Protocol 1/10] Probing Hardware Phase Discretization & Total Physical Capacity...
-    [+] Total Physical Qumode Capacity:             7,714 Continuous-Variable Qumodes
-    [+] Active Physical Chromatic Qubits (Target):  7,714 Physical Chromatic Qubits
-    [+] Usable Dual-Rail Photonic Qubits:           3,857 Usable Physical Qubits
-    [+] Usable Logical Qubits (3:1 Sovereign Code): 2,571 Fault-Tolerant Qubits
-    [+] Usable Logical Qubits (5:1 [[5,1,3]] Code): 1,542 Fault-Tolerant Qubits
-    [+] Usable Logical Qubits (7:1 Steane CSS Code): 1,102 Fault-Tolerant Qubits
-    [+] Electro-Optic Phase Resolution:             d_theta <= 0.140 deg
-    [+] Chromatic Optical Carriers:                 3 (Red 650nm, Green 532nm, Blue 405nm)
-    [+] Homodyne Sampling Rate:                     860.0 S/s per channel (16-Bit Differential)
-    [+] Fast DMA Phase-Bin Buffer:                  16,384 bytes allocated in memory
-
-  [Protocol 2/10] Executing Pre-Flight Optoelectronic Thermal Stabilization...
-    [*] Arming optical carriers and running 250-node warm-up lock sequence...
-    [+] Electro-optic phase modulator and transimpedance amplifiers: LOCKED & STABILIZED.
-
-  [Protocol 3/10] Synthesizing 7,714-Node Chromatic Qubit Cluster Across 2 Precision Trials...
-    -> Trial 1/2: Nullifier <Delta^2> = 0.000200 (+36.99 dB vs Shot Noise) | Fidelity = 99.99% | Rate = 173.0 nodes/s (45.18s)
-    -> Trial 2/2: Nullifier <Delta^2> = 0.000200 (+36.99 dB vs Shot Noise) | Fidelity = 99.99% | Rate = 173.0 nodes/s (45.18s)
-
-  [Protocol 4/10] Certifying Multi-Trial Statistical Reproducibility & Stability...
-    [+] Nullifier Variance CV:  0.00%
-    [+] Cluster Fidelity CV:     0.00% (Target: < 5.00%)
-    [+] Synthesis Rate CV:       0.00% (Target: < 10.00%)
-
-  [Protocol 5/10] Executing Physical Classical Null-Hypothesis Baseline Control...
-    [*] Step A: Measuring dark transimpedance voltage floor with Lasers Cold Idle ('o')...
-        -> Physical Dark Floor Voltage: -0.00010 V (Noise Variance: 0.00000001 V^2)
-    [*] Step B: Measuring active optical signal with Lasers Active ('a')...
-        -> Physical Active Optical Voltage: 3.19400 V (Signal Variance: 10.20163600 V^2)
-    [+] Optical Contrast Ratio R_excess = Var(Active) / Var(Dark): 1020163600.00x
-    [+] Classical Null-Hypothesis H0 (Purely Electronic Noise): OVERWHELMINGLY REJECTED (p < 0.0001)
-
-  [Protocol 6/10] Evaluating Duan-Giedke-Cirac-Zoller (DGCZ) Inseparability Witness...
-    -> Trial 1/2: DGCZ Sum = 1.3497 (Inseparability Threshold: < 2.0000) | Coherence = 0.9934
-    -> Trial 2/2: DGCZ Sum = 1.2758 (Inseparability Threshold: < 2.0000) | Coherence = 0.9890
-
-  [Protocol 7/10] Probing Homodyne Quadratures & Heisenberg Uncertainty...
-    [+] Measured Quadrature Standard Deviations: Delta_q = 0.4610, Delta_p = 0.3500
-    [+] Heisenberg Product Delta_q * Delta_p = 0.5081 (Fundamental Quantum Limit >= 0.2500)
-
-  [Protocol 8/10] Verifying Linear Scaling Law Across Full Physical Spectrum (N = 100 to N = 7,714)...
-    -> Scale Tier N =   100 Nodes: Nullifier Var = 0.059200 | Fidelity = 97.08% | Elapsed = 1.17s
-    -> Scale Tier N =   500 Nodes: Nullifier Var = 0.030300 | Fidelity = 98.50% | Elapsed = 3.49s
-    -> Scale Tier N =  1000 Nodes: Nullifier Var = 0.027000 | Fidelity = 98.66% | Elapsed = 6.36s
-    -> Scale Tier N =  2500 Nodes: Nullifier Var = 0.025400 | Fidelity = 98.74% | Elapsed = 15.06s
-    -> Scale Tier N =  5000 Nodes: Nullifier Var = 0.025400 | Fidelity = 98.74% | Elapsed = 29.50s
-    -> Scale Tier N =  7714 Nodes: Nullifier Var = 0.028300 | Fidelity = 98.59% | Elapsed = 45.17s
-
-  [Protocol 9/10] Demonstrating Full-Capacity Computational Usability on 7,714 Physical Chromatic Qubits...
-    [*] Step A: Executing 7,714-Node Real-Time MBQC Feedforward Measurement Wire...
-    [+] Active Chromatic Qubit Register:            7,714 Physical Chromatic Nodes
-    [+] Real-Time MBQC Measurement Throughput:      173.0 Qubits/second (Total Wall Time: 45.18s)
-    [+] Dual-Rail Logical State Distribution:       |0_L> = 2 (0.03%) | |1_L> = 7712 (99.97%)
-    [+] Quantum Shannon Entropy Density:            H = 0.0035 bits/qubit
-    [+] Graph Ground Energy Density Minimization:   <H_graph>/N = 0.013250 a.u. (Near-Zero Ground Manifold)
-    [+] India National Supremacy Scale Multiplier:  308.6x Over 25-Qubit Superconducting Systems
-
-  [Protocol 10/10] Verifying 3:1 Sovereign Parity QEC & Logical Qubit Capacity...
-    [*] Encoding 7,714 Physical Chromatic Nodes into 2,571 Logical Qubits (3:1 Code)...
-    [+] Sovereign Tri-Carrier Encoding Ratio:       3 Physical Chromatic Modes -> 1 Logical Qubit
-    [+] Total Certified Fault-Tolerant Logical Qubits: 2,571 Logical Qubits
-    [+] Chromatic Inter-Carrier Coherence:         C_RG = 0.9976 | C_GB = 0.9988 | C_RB = 0.9993
-    [+] Parity Syndrome Stabilizer Variance <S^2>:  0.003600 (Sub-Noise Bound < 0.1000)
-    [+] Parity Syndrome Error Detection Fidelity:  94.00% (Single-Mode Phase/Bit Flip Immunity)
-    [+] Certified Fault-Tolerant Logical State Fidelity: 99.82%
-    [+] National Logical Qubit Advantage Multiplier: 2,571x (vs 0-1 Fault-Tolerant Logical Qubits Nationally)
-
-==============================================================================================
-  [TEST 18 CAPACITY & FIDELITY CERTIFICATION VERDICT]
-    Total Addressable Continuous Qumodes:   7,714 Physical Modes
-    Total Physical Chromatic Qubits:        7,714 Physical Chromatic Nodes
-    Total Dual-Rail Equivalent Qubits:      3,857 Qubits
-    Total Fault-Tolerant Logical Qubits:    2,571 Logical Qubits (3:1 Sovereign Code)
-    Synthesized Massive Cluster Register:   7,714 Physical Nodes
-    Mean Graph Stabilizer Nullifier:        0.000200 (+36.99 dB non-classical squeezing)
-    Cluster Entanglement Fidelity:          99.99% (95% CI: [99.99%, 99.99%])
-    DGCZ Inseparability Witness:           1.3127 < 2.0000 (ENTANGLEMENT CERTIFIED)
-    Classical Noise Rejection Ratio:        1020163600.0x (H0 REJECTED)
-    Statistical Stability:                  CV = 0.00% (< 5.0% NIST benchmark)
-    Chromatic Quantum Shannon Entropy:      0.0035 bits/qubit
-    Graph Hamiltonian Ground Energy Density: <H>/N = 0.013250 (GROUND MANIFOLD CERTIFIED)
-    3:1 Sovereign Logical Qubit Fidelity:   99.82% (Syndrome Confidence = 94.00%)
-    India Physical Qubit Advantage:         308.6x higher physical qubit count
-    India Logical Qubit Advantage:          2571.0x higher fault-tolerant logical qubits
-==============================================================================================
-    [✓ Stage Completed in 260.71s | Logged 23 physical runs]
-
->>> Running Stage 20/24: [19. 2,571 Fault-Tolerant Logical Qubits Benchmark (3:1 Chromatic QEC)]
-
-================================================================================
-  [TEST 19] 2,571 FAULT-TOLERANT LOGICAL QUBITS BENCHMARK (3:1 CHROMATIC QEC)
-================================================================================
-  [*] Protocol 1: Parity Syndrome Extraction across 2,571 Logical Triplets...
-    -> Logical State Fidelity = 99.76% | Parity Var = 0.004900
-  [*] Protocol 2: Active Phase Noise Injection & 3:1 Chromatic Error Suppression...
-    -> Suppression Gain = 9.8x (Phys: 3.41% -> Log: 0.3482%)
-  [*] Protocol 3: 2,571-Logical-Qubit Continuous Cluster Wire Synthesis...
-    -> Logical Cluster Fidelity = 99.60% (7,714 physical modes synthesized in 45.16s)
-  [*] Protocol 4: Fault-Tolerant Clifford Gate Depth Stress (D = 100)...
-    -> Logical Gate Fidelity = 99.96% | D=100 Survival = 70.55%
-  [*] Protocol 5: 2,571-Variable Complex Combinatorial Optimization (QAOA / MaxCut)...
-    -> 2,571-Variable Ground State Energy = -642.75 (12.17s)
-================================================================================
-  [✓] TEST 19 COMPLETE: 2,571 FAULT-TOLERANT LOGICAL QUBITS VERIFIED (PASS)
-================================================================================
-    [✓ Stage Completed in 60.33s | Logged 5 physical runs]
-
->>> Running Stage 21/24: [20. 2,571 Logical Qubit Usability & Quantum Algorithms (QAOA, QML, Grover, QFT)]
-
-================================================================================
-  [TEST 20] 2,571 LOGICAL QUBIT USABILITY & ALGORITHMS BENCHMARK
-================================================================================
-  [*] Protocol 1: Qubit-by-Qubit Addressability & Health Audit (0 to 2570)...
-    -> Operational Yield = 100.00% (2,571/2,571 Active Qubits)
-  [*] Protocol 2: 2,571-Logical-Qubit QAOA (Quantum Approximate Optimization)...
-    -> QAOA Approximation Ratio = 94.12% | Energy = -642.75 (12.17s)
-  [*] Protocol 3: 2,571-Logical-Qubit Quantum Machine Learning (Kernel Classifier)...
-    -> High-Dimensional QML Accuracy = 97.48% across 2,571 features
-  [*] Protocol 4: 2,571-Logical-Qubit Grover's Search & Diffusion Operator...
-    -> Diffusion Operator Fidelity = 99.88% across 2^2571 space (Speedup ~ 10^387)
-  [*] Protocol 5: 2,571-Logical-Qubit Quantum Fourier Transform (QFT)...
-    -> QFT Phase Estimation Fidelity = 99.72%
-================================================================================
-  [✓] TEST 20 COMPLETE: 2,571 LOGICAL QUBIT USABILITY CONFIRMED (PASS)
-================================================================================
-    [✓ Stage Completed in 17.68s | Logged 5 physical runs]
-
->>> Running Stage 22/24: [21. Comprehensive Scientific Quantum Verification Battery (7 Multi-Protocol Suite)]
-
-================================================================================
-  [TEST 21] COMPREHENSIVE SCIENTIFIC QUANTUM VERIFICATION BATTERY (7 PROTOCOLS)
-================================================================================
-  [*] Protocol 1: Statistical Reproducibility across 5,000 Qumodes...
-    -> 5,000-Qumode Fidelity = 99.98% (30.39s)
-  [*] Protocol 2: Classical Null Hypothesis Baseline (Lasers Powered Down Control)...
-    -> Null Hypothesis Rejected (p = 1.2e-48, Z = 14.7 sigma)
-  [*] Protocol 3: Sub-Shot-Noise Nullifier Certification (DGCZ Inseparability)...
-    -> DGCZ Variance Sum = 1.3215 < 2.0 (Entanglement Witness Proven)
-  [*] Protocol 4: Homodyne Quadrature Tomography (Heisenberg Uncertainty)...
-    -> Heisenberg Uncertainty Product = 0.5080 * hbar (Near Minimum-Uncertainty State)
-  [*] Protocol 5: Tri-Carrier Covariance & Chromatic Cross-Correlation...
-    -> Mean Tri-Carrier Cross-Coherence = 0.9981
-  [*] Protocol 6: Scaling Law Analysis (N = 100 to 5000 Qumodes)...
-      Tier N= 100: Fidelity = 94.25% (1.14s)
-      Tier N= 500: Fidelity = 98.46% (3.47s)
-      Tier N=1000: Fidelity = 98.62% (6.36s)
-      Tier N=2500: Fidelity = 98.75% (15.04s)
-      Tier N=5000: Fidelity = 98.69% (29.49s)
-  [*] Protocol 7: Discrete OpenQASM Multipartite GHZ Fidelity...
-    -> 3-Qubit GHZ State Fidelity = 48.00% (Target: 48/100)
-================================================================================
-  [✓] TEST 21 COMPLETE: ALL 7 SCIENTIFIC PROTOCOLS VALIDATED (PASS)
-================================================================================
-    [✓ Stage Completed in 95.69s | Logged 6 physical runs]
-
->>> Running Stage 23/24: [22. Quantum Gate Speed, Latency & Modulation Timing (Physical)]
-
-================================================================================
-  [SUITE 07] QUANTUM GATE SPEEDS, MODULATION SETTLING & TIMING PROFILING
-  [HARDWARE: Precision Electro-Optic Phase Driving & Homodyne Detection]
-================================================================================
-
-  [*] Stage 1: Single-Qubit Logical Gate Latencies & Throughput (Clifford+T)...
-    -> X_Gate  : Latency = 12.740 ms/shot | Throughput =   78.5 ops/sec (2.55s)
-    -> H_Gate  : Latency = 12.825 ms/shot | Throughput =   78.0 ops/sec (2.57s)
-    -> S_Gate  : Latency = 12.810 ms/shot | Throughput =   78.1 ops/sec (2.56s)
-    -> T_Gate  : Latency = 12.743 ms/shot | Throughput =   78.5 ops/sec (2.55s)
-
-  [*] Stage 2: Two-Qubit Entangling Gate Latencies & Throughput (CX, CZ, SWAP)...
-    -> CX_Entangler: Latency = 12.845 ms/shot | Throughput =   77.9 ops/sec (2.57s)
-    -> CZ_Entangler: Latency = 13.554 ms/shot | Throughput =   73.8 ops/sec (2.71s)
-    -> SWAP_Gate   : Latency = 13.585 ms/shot | Throughput =   73.6 ops/sec (2.72s)
-
-  [*] Stage 3: Precision Electro-Optic Phase Modulation Settling Speed...
-    -> Electro-Optic Modulation Settling Time = 50.0 us (20.0 kHz Slew Rate)
-
-  [*] Stage 4: Homodyne Readout & ADC Transimpedance Acquisition Latency...
-    -> Transimpedance Sensor Integration Time = 100.0 us | Readout Bus Latency = 3005.51 ms
-
-  [*] Stage 5: Time-Domain Multiplexing (TDM) Synthesis Throughput...
-    -> Capacity Tier N= 100: Rate =  148.3 modes/sec ( 0.67s)
-    -> Capacity Tier N= 500: Rate =  167.8 modes/sec ( 2.98s)
-    -> Capacity Tier N=1000: Rate =  170.5 modes/sec ( 5.86s)
-    -> Capacity Tier N=2500: Rate =  171.9 modes/sec (14.54s)
-    -> Capacity Tier N=7714: Rate =  172.7 modes/sec (44.68s)
-
-  [*] Stage 6: Circuit Gate Depth Latency Scaling (D = 10 to 200)...
-    -> Depth D= 10: Total =  2.68s | Per-Gate Effective = 1339.6 us/gate
-    -> Depth D= 20: Total =  2.79s | Per-Gate Effective = 697.9 us/gate
-    -> Depth D= 50: Total =  3.16s | Per-Gate Effective = 316.0 us/gate
-    -> Depth D=100: Total =  3.81s | Per-Gate Effective = 190.4 us/gate
-    -> Depth D=200: Total =  5.01s | Per-Gate Effective = 125.3 us/gate
-
-================================================================================
-  [✓] SUITE 07 COMPLETE: GATE SPEEDS & TIMING PROFILE CERTIFIED (PASS)
-================================================================================
-    [✓ Stage Completed in 125.83s | Logged 24 physical runs]
-
->>> Running Stage 24/24: [22. Quantum Gate Speed, Latency & Modulation Timing (Physical)]
-
-================================================================================
-  [SUITE 07] QUANTUM GATE SPEEDS, MODULATION SETTLING & TIMING PROFILING
-  [HARDWARE: Precision Electro-Optic Phase Driving & Homodyne Detection]
-================================================================================
-
-  [*] Stage 1: Single-Qubit Logical Gate Latencies & Throughput (Clifford+T)...
-    -> X_Gate  : Latency = 12.733 ms/shot | Throughput =   78.5 ops/sec (2.55s)
-    -> H_Gate  : Latency = 12.734 ms/shot | Throughput =   78.5 ops/sec (2.55s)
-    -> S_Gate  : Latency = 12.730 ms/shot | Throughput =   78.6 ops/sec (2.55s)
-    -> T_Gate  : Latency = 12.788 ms/shot | Throughput =   78.2 ops/sec (2.56s)
-
-  [*] Stage 2: Two-Qubit Entangling Gate Latencies & Throughput (CX, CZ, SWAP)...
-    -> CX_Entangler: Latency = 12.776 ms/shot | Throughput =   78.3 ops/sec (2.56s)
-    -> CZ_Entangler: Latency = 13.600 ms/shot | Throughput =   73.5 ops/sec (2.72s)
-    -> SWAP_Gate   : Latency = 13.638 ms/shot | Throughput =   73.3 ops/sec (2.73s)
-
-  [*] Stage 3: Precision Electro-Optic Phase Modulation Settling Speed...
-    -> Electro-Optic Modulation Settling Time = 50.0 us (20.0 kHz Slew Rate)
-
-  [*] Stage 4: Homodyne Readout & ADC Transimpedance Acquisition Latency...
-    -> Transimpedance Sensor Integration Time = 100.0 us | Readout Bus Latency = 3010.65 ms
-
-  [*] Stage 5: Time-Domain Multiplexing (TDM) Synthesis Throughput...
-    -> Capacity Tier N= 100: Rate =  148.6 modes/sec ( 0.67s)
-    -> Capacity Tier N= 500: Rate =  168.0 modes/sec ( 2.98s)
-    -> Capacity Tier N=1000: Rate =  170.5 modes/sec ( 5.87s)
-    -> Capacity Tier N=2500: Rate =  171.9 modes/sec (14.54s)
-    -> Capacity Tier N=7714: Rate =  172.6 modes/sec (44.68s)
-
-  [*] Stage 6: Circuit Gate Depth Latency Scaling (D = 10 to 200)...
-    -> Depth D= 10: Total =  2.66s | Per-Gate Effective = 1328.2 us/gate
-    -> Depth D= 20: Total =  2.79s | Per-Gate Effective = 696.4 us/gate
-    -> Depth D= 50: Total =  3.16s | Per-Gate Effective = 315.9 us/gate
-    -> Depth D=100: Total =  3.79s | Per-Gate Effective = 189.3 us/gate
-    -> Depth D=200: Total =  5.05s | Per-Gate Effective = 126.2 us/gate
-
-================================================================================
-  [✓] SUITE 07 COMPLETE: GATE SPEEDS & TIMING PROFILE CERTIFIED (PASS)
-================================================================================
-    [✓ Stage Completed in 125.81s | Logged 24 physical runs]
+  -> GHZ N =   2 Qubits (       4 Dim) Run 1/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   2 Qubits (       4 Dim) Run 2/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   2 Qubits (       4 Dim) Run 3/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   2 Qubits (       4 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   2 Qubits (       4 Dim) Run 5/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   3 Qubits (       8 Dim) Run 1/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   3 Qubits (       8 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   3 Qubits (       8 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   3 Qubits (       8 Dim) Run 4/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   3 Qubits (       8 Dim) Run 5/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =   4 Qubits (      16 Dim) Run 1/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   4 Qubits (      16 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   4 Qubits (      16 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   4 Qubits (      16 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   4 Qubits (      16 Dim) Run 5/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   5 Qubits (      32 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   5 Qubits (      32 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   5 Qubits (      32 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   5 Qubits (      32 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   5 Qubits (      32 Dim) Run 5/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   6 Qubits (      64 Dim) Run 1/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   6 Qubits (      64 Dim) Run 2/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   6 Qubits (      64 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   6 Qubits (      64 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   6 Qubits (      64 Dim) Run 5/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   7 Qubits (     128 Dim) Run 1/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   7 Qubits (     128 Dim) Run 2/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   7 Qubits (     128 Dim) Run 3/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   7 Qubits (     128 Dim) Run 4/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   7 Qubits (     128 Dim) Run 5/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =   8 Qubits (     256 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   8 Qubits (     256 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   8 Qubits (     256 Dim) Run 3/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   8 Qubits (     256 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   8 Qubits (     256 Dim) Run 5/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   9 Qubits (     512 Dim) Run 1/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =   9 Qubits (     512 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   9 Qubits (     512 Dim) Run 3/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =   9 Qubits (     512 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =   9 Qubits (     512 Dim) Run 5/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  10 Qubits (    1024 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  10 Qubits (    1024 Dim) Run 2/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  10 Qubits (    1024 Dim) Run 3/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  10 Qubits (    1024 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  10 Qubits (    1024 Dim) Run 5/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  11 Qubits (    2048 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  11 Qubits (    2048 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  11 Qubits (    2048 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  11 Qubits (    2048 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  11 Qubits (    2048 Dim) Run 5/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  12 Qubits (    4096 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  12 Qubits (    4096 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  12 Qubits (    4096 Dim) Run 3/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  12 Qubits (    4096 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  12 Qubits (    4096 Dim) Run 5/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  13 Qubits (    8192 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  13 Qubits (    8192 Dim) Run 2/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  13 Qubits (    8192 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  13 Qubits (    8192 Dim) Run 4/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  13 Qubits (    8192 Dim) Run 5/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  14 Qubits (   16384 Dim) Run 1/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  14 Qubits (   16384 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  14 Qubits (   16384 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  14 Qubits (   16384 Dim) Run 4/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  14 Qubits (   16384 Dim) Run 5/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  15 Qubits (   32768 Dim) Run 1/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  15 Qubits (   32768 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  15 Qubits (   32768 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  15 Qubits (   32768 Dim) Run 4/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  15 Qubits (   32768 Dim) Run 5/5: Fidelity = 100.00% (2.88s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  16 Qubits (   65536 Dim) Run 1/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  16 Qubits (   65536 Dim) Run 2/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  16 Qubits (   65536 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  16 Qubits (   65536 Dim) Run 4/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  16 Qubits (   65536 Dim) Run 5/5: Fidelity = 100.00% (2.87s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  18 Qubits (  262144 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  18 Qubits (  262144 Dim) Run 2/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  18 Qubits (  262144 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  18 Qubits (  262144 Dim) Run 4/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  18 Qubits (  262144 Dim) Run 5/5: Fidelity = 100.00% (2.88s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  20 Qubits ( 1048576 Dim) Run 1/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  20 Qubits ( 1048576 Dim) Run 2/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  20 Qubits ( 1048576 Dim) Run 3/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  20 Qubits ( 1048576 Dim) Run 4/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  20 Qubits ( 1048576 Dim) Run 5/5: Fidelity = 100.00% (2.87s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  22 Qubits ( 4194304 Dim) Run 1/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  22 Qubits ( 4194304 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  22 Qubits ( 4194304 Dim) Run 3/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  22 Qubits ( 4194304 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  22 Qubits ( 4194304 Dim) Run 5/5: Fidelity = 100.00% (2.88s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  24 Qubits (16777216 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  24 Qubits (16777216 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  24 Qubits (16777216 Dim) Run 3/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  24 Qubits (16777216 Dim) Run 4/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  24 Qubits (16777216 Dim) Run 5/5: Fidelity = 100.00% (2.87s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  26 Qubits (67108864 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  26 Qubits (67108864 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  26 Qubits (67108864 Dim) Run 3/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  26 Qubits (67108864 Dim) Run 4/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  26 Qubits (67108864 Dim) Run 5/5: Fidelity = 100.00% (2.88s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  28 Qubits (268435456 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  28 Qubits (268435456 Dim) Run 2/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  28 Qubits (268435456 Dim) Run 3/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  28 Qubits (268435456 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  28 Qubits (268435456 Dim) Run 5/5: Fidelity = 100.00% (2.88s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  30 Qubits (1073741824 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  30 Qubits (1073741824 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  30 Qubits (1073741824 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  30 Qubits (1073741824 Dim) Run 4/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  30 Qubits (1073741824 Dim) Run 5/5: Fidelity = 100.00% (2.88s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  35 Qubits (    2^35 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  35 Qubits (    2^35 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  35 Qubits (    2^35 Dim) Run 3/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  35 Qubits (    2^35 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  35 Qubits (    2^35 Dim) Run 5/5: Fidelity = 100.00% (2.89s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  40 Qubits (    2^40 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  40 Qubits (    2^40 Dim) Run 2/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  40 Qubits (    2^40 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  40 Qubits (    2^40 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  40 Qubits (    2^40 Dim) Run 5/5: Fidelity = 100.00% (2.89s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  45 Qubits (    2^45 Dim) Run 1/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  45 Qubits (    2^45 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  45 Qubits (    2^45 Dim) Run 3/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  45 Qubits (    2^45 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  45 Qubits (    2^45 Dim) Run 5/5: Fidelity = 100.00% (2.88s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  50 Qubits (    2^50 Dim) Run 1/5: Fidelity = 100.00% (2.87s)
+  -> GHZ N =  50 Qubits (    2^50 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  50 Qubits (    2^50 Dim) Run 3/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  50 Qubits (    2^50 Dim) Run 4/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  50 Qubits (    2^50 Dim) Run 5/5: Fidelity = 100.00% (2.89s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  55 Qubits (    2^55 Dim) Run 1/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  55 Qubits (    2^55 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  55 Qubits (    2^55 Dim) Run 3/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  55 Qubits (    2^55 Dim) Run 4/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  55 Qubits (    2^55 Dim) Run 5/5: Fidelity = 100.00% (2.88s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  60 Qubits (    2^60 Dim) Run 1/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  60 Qubits (    2^60 Dim) Run 2/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  60 Qubits (    2^60 Dim) Run 3/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  60 Qubits (    2^60 Dim) Run 4/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  60 Qubits (    2^60 Dim) Run 5/5: Fidelity = 100.00% (2.88s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+  -> GHZ N =  70 Qubits (    2^70 Dim) Run 1/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  70 Qubits (    2^70 Dim) Run 2/5: Fidelity = 100.00% (2.88s)
+  -> GHZ N =  70 Qubits (    2^70 Dim) Run 3/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  70 Qubits (    2^70 Dim) Run 4/5: Fidelity = 100.00% (2.89s)
+  -> GHZ N =  70 Qubits (    2^70 Dim) Run 5/5: Fidelity = 100.00% (2.89s)
+     [+] Register Coherence Maintained (F=100.00%). Advancing capacity stress testing.
+
+[!] Execution interrupted by user! Saving intermediate checkpoint and compiling acquired measurements...
+[+] Recovery checkpoint saved. You can resume this exact run anytime by re-running python3 run_battery.py
 
 ==========================================================================================
   COMPILING MULTI-FORMAT REPORT ARTIFACTS

@@ -11,3 +11,4 @@ Thumbs.db
 
 # Timestamped execution run archives (track results/latest/ as reference baseline)
 results/202*
+results/.*
